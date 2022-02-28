@@ -17,17 +17,21 @@ import {
   REGISTER,
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import { CharActionType, charReducer, CharState } from "./ducks/charReducer";
+import {
+  CharacterActionType,
+  characterReducer,
+  CharacterState,
+} from "./ducks/characterReducer";
 
 export interface EngageState {
-  readonly char: CharState;
+  readonly character: CharacterState;
 }
 
-export type EngageActions = CharActionType;
+export type EngageActions = CharacterActionType;
 
 export type EngageStore = EnhancedStore<EngageState, EngageActions>;
 const rootReducer: ReducersMapObject<EngageState, EngageActions> = {
-  char: charReducer,
+  character: characterReducer,
 };
 
 const persistConfig = {
