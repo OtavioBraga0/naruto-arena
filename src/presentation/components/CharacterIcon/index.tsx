@@ -1,6 +1,7 @@
 import React, { HTMLAttributes } from "react";
 import { ICharacter } from "../../../domain/entities/Character";
 import { useCharacter } from "../../hooks/useCharacter";
+import { useTeam } from "../../hooks/useTeam";
 
 import "./style.scss";
 
@@ -16,12 +17,12 @@ const CharacterIcon: React.FC<CharacterIconType> = ({
   ...rest
 }) => {
   const {
-    actions: {
-      handleGetDetailedCharacter,
-      handleAddOnTeam,
-      handleRemoveFromTeam,
-    },
+    actions: { handleGetDetailedCharacter },
   } = useCharacter();
+
+  const {
+    actions: { handleAddOnTeam, handleRemoveFromTeam },
+  } = useTeam();
 
   return character.id !== 0 ? (
     <button
