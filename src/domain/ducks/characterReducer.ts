@@ -64,7 +64,6 @@ function handleAddOnTeam(
   state: CharacterState,
   action: PayloadAction<ICharacter>
 ): CharacterState {
-  console.log(action.payload);
   return {
     ...state,
     team: [...state.team, action.payload],

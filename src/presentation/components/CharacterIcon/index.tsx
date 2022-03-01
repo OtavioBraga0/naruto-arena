@@ -1,13 +1,20 @@
-import React from "react";
+import React, { HTMLAttributes } from "react";
 import { ICharacter } from "../../../domain/entities/Character";
 import { useCharacter } from "../../hooks/useCharacter";
 
 import "./style.scss";
 
-const CharacterIcon: React.FC<{
+interface CharacterIconType extends HTMLAttributes<HTMLButtonElement> {
   character: ICharacter;
   isOnTeam?: boolean;
-}> = ({ character, isOnTeam = false }) => {
+  disabled?: boolean;
+}
+
+const CharacterIcon: React.FC<CharacterIconType> = ({
+  character,
+  isOnTeam = false,
+  ...rest
+}) => {
   const {
     actions: {
       handleGetDetailedCharacter,
@@ -16,7 +23,7 @@ const CharacterIcon: React.FC<{
     },
   } = useCharacter();
 
-  return (
+  return character.id !== 0 ? (
     <button
       className="character-icon"
       onClick={() => !isOnTeam && handleGetDetailedCharacter(character.id)}
@@ -25,9 +32,12 @@ const CharacterIcon: React.FC<{
           ? handleAddOnTeam(character)
           : handleRemoveFromTeam(character.id)
       }
+      {...rest}
     >
       <img src={character.avatar} alt={character.name} />
     </button>
+  ) : (
+    <div className="character-icon__markdown" />
   );
 };
 

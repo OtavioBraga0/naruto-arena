@@ -16,6 +16,7 @@
 
   width: 505px;
   min-height: 222px;
+  max-height: 222px;
 
   &::before {
     content: "";
@@ -45,10 +46,11 @@
     &__item {
       width: 75px;
       height: 75px;
+      border: $neutralDark 0.5px solid;
     }
 
     &__avatar {
-      margin-right: 50px;
+      margin-right: 40px;
     }
   }
 
@@ -62,6 +64,7 @@
     & > img {
       width: 75px;
       height: 75px;
+      border: $neutralDark 0.5px solid;
     }
 
     &__detail {

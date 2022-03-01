@@ -1,91 +1,119 @@
+@import "../../style/colors.scss";
+
 .main {
-  background-image: url("../../assets/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  height: 80vh;
-
-  padding: 25px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-
-  overflow: visible;
-
-  &__footer {
-    background-image: url("../../assets/char-list-bg.jpg");
-    background-size: 100% 100%;
+    background-image: url("../../assets/bg.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 
-    padding: 10px;
+    height: 80vh;
+
+    padding: 25px;
 
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 
-    bottom: 0;
+    overflow: visible;
 
-    &::before {
-      content: "";
-      background-image: url("../../assets/scroll.png");
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      height: 295px;
-      left: -23px;
-      position: absolute;
-      top: -15px;
-      bottom: -15px;
-      width: 48px;
+    gap: 20px;
+
+    &__menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        flex: 1;
+
+        &__item {
+            background-color: $bg;
+            border: 1px solid $mediumRed;
+
+            padding: 5px 10px;
+            font-weight: bold;
+
+            font-size: 14px;
+            color: $neutralDark;
+            outline: none;
+            text-decoration: none;
+        }
     }
 
-    &__characters {
-      position: relative;
-      width: max-content;
+    &__footer {
+        background-image: url("../../assets/char-list-bg.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
 
-      &__list {
-        padding: 5px 36px;
+        padding: 10px;
 
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 5px;
-      }
+        display: flex;
+        align-items: center;
+
+        bottom: 0;
+
+        &::before {
+            content: "";
+            background-image: url("../../assets/scroll.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 295px;
+            left: -23px;
+            position: absolute;
+            top: -15px;
+            bottom: -15px;
+            width: 48px;
+        }
+
+        &__characters {
+            position: relative;
+            width: max-content;
+
+            &__list {
+                padding: 5px 36px;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 5px;
+            }
+        }
+
+        &__next-button,
+        &__prev-button {
+            background-image: url("../../assets/arrow.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+
+            position: absolute;
+            width: 50px;
+            height: 50px;
+
+            cursor: pointer;
+
+            &:disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+        }
+
+        &__next-button {
+            bottom: 15px;
+            right: -8px;
+        }
+
+        &__prev-button {
+            transform: scaleX(-1);
+            left: -8px;
+        }
+
+        &__team {
+            width: 250px;
+            display: flex;
+            gap: 5px;
+        }
     }
-
-    &__next-button,
-    &__prev-button {
-      background-image: url("../../assets/arrow.png");
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      background-color: transparent;
-      border: none;
-
-      position: absolute;
-      width: 50px;
-      height: 50px;
-
-      cursor: pointer;
-
-      &:disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
-      }
-    }
-
-    &__next-button {
-      bottom: 15px;
-      right: -8px;
-    }
-
-    &__prev-button {
-      transform: scaleX(-1);
-      left: -8px;
-    }
-
-    &__team {
-      width: 250px;
-    }
-  }
 }

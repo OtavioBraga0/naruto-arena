@@ -4,7 +4,7 @@ export interface ICharacter {
   id: number;
   avatar: string;
   skills: Array<Skill>;
-  alternateSkills: [];
+  alternateSkills: Array<string>;
   charFilter: Array<string>;
   skillFilter: Array<string>;
   chakraUsed: Array<string>;
@@ -18,4 +18,17 @@ export type Skill = {
   skillClasses: string;
   skillCost: Array<string>;
   skillCooldown: string;
+};
+
+export const DEFAULT_CHARACTER = {
+  name: "",
+  description: "",
+  id: 0,
+  avatar: "",
+  skills: [],
+  alternateSkills: [],
+  charFilter: [],
+  skillFilter: [],
+  chakraUsed: [],
+  mission: [],
 };
