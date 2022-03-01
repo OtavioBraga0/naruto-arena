@@ -1,8 +1,12 @@
 import { Dispatch } from "redux";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { EngageState } from "../DomainLayer";
+import {
+  getAllCharacters,
+  getDetailedCharacter,
+} from "../../data/services/character";
+import { ListType } from "../ducks/characterReducer";
 import { ICharacter } from "../entities/Character";
-import { getAllCharacters } from "../../data/services/character";
 
 export interface ThunkApi {
   dispatch: Dispatch;
@@ -10,16 +14,26 @@ export interface ThunkApi {
   rejectValue: string;
 }
 export const getAllCharacterThunk = createAsyncThunk<
-  ICharacter[],
-  void,
+  ListType,
+  { page: number },
   ThunkApi
->("thunk/character/getAllCharacterThunk", async (_, thunkAPI) => {
+>("thunk/character/getAllCharacterThunk", async (payload, thunkAPI) => {
   try {
-    const allCharacters = await getAllCharacters();
+    const response = await getAllCharacters(payload.page);
 
-    console.log(allCharacters);
+    return response;
+  } catch (error: any) {
+    return thunkAPI.rejectWithValue(error.message);
+  }
+});
 
-    return allCharacters;
+export const getDetailedCharacterThunk = createAsyncThunk<
+  ICharacter,
+  number,
+  ThunkApi
+>("thunk/character/getDetailedCharacterThunk", async (payload, thunkAPI) => {
+  try {
+    return await getDetailedCharacter(payload);
   } catch (error: any) {
     return thunkAPI.rejectWithValue(error.message);
   }

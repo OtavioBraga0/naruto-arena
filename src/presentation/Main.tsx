@@ -5,6 +5,8 @@ import { Persistor } from "redux-persist/es/types";
 import { EngageStore } from "../domain/DomainLayer";
 import { Router } from "./Router";
 
+import "./style/global.scss";
+
 export type MainProps = {
   store: EngageStore;
   persistor: Persistor;

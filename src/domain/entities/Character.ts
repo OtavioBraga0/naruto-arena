@@ -1,7 +1,7 @@
 export interface ICharacter {
   name: string;
   description: string;
-  place: number;
+  id: number;
   avatar: string;
   skills: Array<Skill>;
   alternateSkills: [];

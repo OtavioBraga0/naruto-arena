@@ -1,8 +1,91 @@
 .main {
   background-image: url("../../assets/bg.jpg");
-  width: 770px;
-  height: 560px;
-  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  overflow-y: scroll;
+  height: 80vh;
+
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  overflow: visible;
+
+  &__footer {
+    background-image: url("../../assets/char-list-bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+
+    bottom: 0;
+
+    &::before {
+      content: "";
+      background-image: url("../../assets/scroll.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 295px;
+      left: -23px;
+      position: absolute;
+      top: -15px;
+      bottom: -15px;
+      width: 48px;
+    }
+
+    &__characters {
+      position: relative;
+      width: max-content;
+
+      &__list {
+        padding: 5px 36px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 5px;
+      }
+    }
+
+    &__next-button,
+    &__prev-button {
+      background-image: url("../../assets/arrow.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+
+      position: absolute;
+      width: 50px;
+      height: 50px;
+
+      cursor: pointer;
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+
+    &__next-button {
+      bottom: 15px;
+      right: -8px;
+    }
+
+    &__prev-button {
+      transform: scaleX(-1);
+      left: -8px;
+    }
+
+    &__team {
+      width: 250px;
+    }
+  }
 }

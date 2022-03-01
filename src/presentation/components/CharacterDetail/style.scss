@@ -1,0 +1,84 @@
+@import "../../style/colors.scss";
+
+.character-detail {
+  background-image: url("../../assets/char-list-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+  padding: 10px 40px;
+  padding-left: 20px;
+  margin-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 505px;
+  min-height: 222px;
+
+  &::before {
+    content: "";
+    background-image: url("../../assets/scroll.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 270px;
+    right: -23px;
+    position: absolute;
+    top: -15px;
+    bottom: -15px;
+    width: 48px;
+  }
+
+  & > h2 {
+    margin: 0;
+    color: $mediumRed;
+    font-size: 15px;
+    margin: 5px 0;
+    align-self: flex-start;
+  }
+  &__images {
+    display: flex;
+    gap: 20px;
+    align-self: flex-start;
+
+    &__item {
+      width: 75px;
+      height: 75px;
+    }
+
+    &__avatar {
+      margin-right: 50px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+
+    & > img {
+      width: 75px;
+      height: 75px;
+    }
+
+    &__detail {
+      flex: 1;
+      height: 100%;
+      margin-top: 20px;
+      & > h3 {
+        margin: 0;
+        font-size: 14px;
+        color: $mediumRed;
+      }
+
+      & > span {
+        flex: 1;
+        margin: 0;
+        font-size: 12px;
+      }
+    }
+  }
+}

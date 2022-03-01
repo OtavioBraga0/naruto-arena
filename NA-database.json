@@ -3,7 +3,7 @@
     {
       "name": "Uzumaki Naruto",
       "description": "A Genin from Team 7, Naruto is an orphan with the goal to one day become Hokage. Using his signature move, Shadow Clones, Naruto is able to perform powerful moves such as the Uzumaki Naruto Combo and the Rasengan.",
-      "place": 1,
+      "id": 1,
       "avatar": "https://i.imgur.com/mJ505HX.jpg",
       "skills": [
         {
@@ -55,7 +55,7 @@
     {
       "name": "Haruno Sakura",
       "description": "A Genin from Team 7, Sakura is very intelligent, but self-conscious about herself. Having just recently received training from Tsunade, Sakura is now able to deliver powerful punches and heal her own allies.",
-      "place": 2,
+      "id": 2,
       "avatar": "https://i.imgur.com/PnQ7L54.jpg",
       "skills": [
         {
@@ -109,7 +109,7 @@
     {
       "name": "Uchiha Sasuke",
       "description": "A Genin from Team 7, Sasuke is the lone survivor of the Uchiha clan and has sworn vengeance against his brother. Using his sharingan, Sasuke is able to anticipate incoming attacks and is capable of advanced offensive moves.",
-      "place": 3,
+      "id": 3,
       "avatar": "https://i.imgur.com/1cTOEtq.jpg",
       "skills": [
         {
@@ -162,7 +162,7 @@
     {
       "name": "Inuzuka Kiba",
       "description": "A Genin from Team 8, Kiba is a member of the Inuzuka clan, and is both short-tempered and impulsive. Using his dog, Akamaru, Kiba is capable of powerful taijutsu or fusing with Akamaru to become a deadly double headed dog.",
-      "place": 4,
+      "id": 4,
       "avatar": "https://i.imgur.com/wfrSWxS.jpg",
       "skills": [
         {
@@ -218,7 +218,7 @@
     {
       "name": "Aburame Shino",
       "description": "A Genin from Team 8, Shino is the successor of the Aburame clan, and a very reserved and tactical fighter. Using the bugs that live inside his body, Shino is able to leech the chakra off his enemies, or protect his entire team.",
-      "place": 5,
+      "id": 5,
       "avatar": "https://i.imgur.com/uaMaL3v.jpg",
       "skills": [
         {
@@ -272,7 +272,7 @@
     {
       "name": "Hyuuga Hinata",
       "description": "A Genin from Team 8, Hinata is the next in line in the Hyuuga clan, but she is shy and very withdrawn. Using the trademark Byakugan of the Hyuuga, Hinata is able to delicately target an enemy's Chakra Points while defending the team.",
-      "place": 6,
+      "id": 6,
       "avatar": "https://i.imgur.com/7uh5923.jpg",
       "skills": [
         {
@@ -327,7 +327,7 @@
     {
       "name": "Nara Shikamaru",
       "description": "A Genin from Team 10, a member of the Nara clan, Shikamaru is considered to be the smartest Genin of all the Konoha 11. Using his bloodline, Shikamaru can manipulate the shadows in the battlefield to disable and attack his enemies.",
-      "place": 7,
+      "id": 7,
       "avatar": "https://i.imgur.com/18BCDpO.jpg",
       "skills": [
         {
@@ -380,7 +380,7 @@
     {
       "name": "Akimichi Chouji",
       "description": "A Genin from Team 10, Chouji is a member of the Akimichi clan, a large eater, and a close friend to his allies. While innately strong, Chouji is able to sacrifice his own life using special pills from his clan to become insanely powerful. ",
-      "place": 8,
+      "id": 8,
       "avatar": "https://i.imgur.com/C4mQVyG.jpg",
       "skills": [
         {
@@ -433,7 +433,7 @@
     {
       "name": "Yamanaka Ino",
       "description": "A Genin from Team 10, Ino is a member of the Yamanaka clan, and a very confident and vain girl. Ino is able to use a variety of abilities to take over and control her enemies, making it difficult to tell friend from foe.",
-      "place": 9,
+      "id": 9,
       "avatar": "https://i.imgur.com/6Qrq4yN.jpg",
       "skills": [
         {
@@ -497,7 +497,7 @@
     {
       "name": "Rock Lee",
       "description": "A member of team Gai; Lee is a genin with no talent at all in ninjutsu or genjutsu, so he has focused his life all on taijutsu. With his powerful hand to hand techniques, Lee can crush any defense with his immense power.",
-      "place": 10,
+      "id": 10,
       "avatar": "https://i.imgur.com/LUA3QK2.jpg",
       "skills": [
         {
@@ -563,7 +563,7 @@
     {
       "name": "Tenten",
       "description": "A member of team Gai, Tenten is a tomboyish weapon specialist who believes a kunoichi can be as strong as a male ninja. In battle, Tenten surrounds the battlefield in weapons, using them for damage and for disabling her opponents.",
-      "place": 11,
+      "id": 11,
       "avatar": "https://i.imgur.com/8hnWrsS.jpg",
       "skills": [
         {
@@ -617,7 +617,7 @@
     {
       "name": "Hyuuga Neji",
       "description": "A member of team Gai; Neji is the most talented member of the Hyuuga clan in both mind and body. Neji can use the most powerful techniques of his clan, shutting down an enemy's chakra or defending with an absolute defense.",
-      "place": 12,
+      "id": 12,
       "avatar": "https://i.imgur.com/SnXl3u9.jpg",
       "skills": [
         {
@@ -671,7 +671,7 @@
     {
       "name": "Gaara",
       "description": "A Jinchuuriki from the Village of Sand, Gaara is an unstable ninja with the Shukaku, the one-tailed beast. With the Shukaku, and his own abilities, Gaara can manipulate the sand in his gourd to crush the enemy, or defend himself.",
-      "place": 13,
+      "id": 13,
       "avatar": "https://i.imgur.com/Q7n6CS2.jpg",
       "skills": [
         {
@@ -737,7 +737,7 @@
     {
       "name": "Kankuro",
       "description": "The brother of Gaara, and a master puppeeter, Kankuro is one of the three sand siblings. With his puppets, Kankuro is able to use the varied abilities hidden inside them to attack his enemies, or even protect himself.",
-      "place": 14,
+      "id": 14,
       "avatar": "https://i.imgur.com/SYBuYD8.jpg",
       "skills": [
         {
@@ -791,7 +791,7 @@
     {
       "name": "Temari",
       "description": "The elder sister of Gaara and Kankuro, Temari is a somewhat cruel and blunt ninja that fights using the wind at her side. With her fan, Temari can create powerful gusts of wind that she can manipulate at her desite.",
-      "place": 15,
+      "id": 15,
       "avatar": "https://i.imgur.com/ytBdDmF.jpg",
       "skills": [
         {
@@ -843,7 +843,7 @@
     {
       "name": "Kinuta Dosu",
       "description": "One of the three sound genin, and possibly the strongest; Dosu is an intelligent and patient ninja that likes to act with logic. Using a powerful sound based arm, Dosu can disable his enemies by disrupting their hearing and throwing them off.",
-      "place": 16,
+      "id": 16,
       "avatar": "https://i.imgur.com/gDSGgOc.jpg",
       "skills": [
         {
@@ -897,7 +897,7 @@
     {
       "name": "Tsuchi Kin",
       "description": "One of the three sound genin; Kin is a confident ninja that likes to toy with her enemies before finishing them off. Using a set of needles and bells, Kin has a number of different effects she can create to attack her enemies.",
-      "place": 17,
+      "id": 17,
       "avatar": "https://i.imgur.com/DbocPAq.jpg",
       "skills": [
         {
@@ -951,7 +951,7 @@
     {
       "name": "Abumi Zaku",
       "description": "One of the three sound genin; Zaku is a willful individual who has a very strong desire to win and succeed. Using the implanted tubes in his arm, Zaku can create powerful waves of chakra, or alter the wind ever so gently to protect an ally.",
-      "place": 18,
+      "id": 18,
       "avatar": "https://i.imgur.com/vo5hkwb.jpg",
       "skills": [
         {
@@ -996,7 +996,7 @@
     {
       "name": "Young Kakashi",
       "description": "A jounin at the age of 13 and the son of the legendary White Fang, Kakashi is a member of Team Minato. Using his early ninjutsu, and borrowed sharingan, Kakashi can fight any adult on an equal level.",
-      "place": 19,
+      "id": 19,
       "avatar": "https://i.imgur.com/mlZ3sQZ.jpg",
       "skills": [
         {
@@ -1051,7 +1051,7 @@
     {
       "name": "Uchiha Obito",
       "description": "A minor member of the Uchiha clan and a chuunin, Obito is a member of Team Minato. While Obito does not possess any singular powerful ability, he can use all of what he knows with his developing sharingan to put up a fight.",
-      "place": 20,
+      "id": 20,
       "avatar": "https://i.imgur.com/EJ6aPHZ.jpg",
       "skills": [
         {
@@ -1107,7 +1107,7 @@
     {
       "name": "Nohara Rin",
       "description": "A chuunin medical nin assigned to Team Minato, Rin is a quiet and passive girl who focuses on keeping her team mates alive. Using her healing abilities, and her intelligence, Rin is able to heal her allies while trapping her enemies.",
-      "place": 21,
+      "id": 21,
       "avatar": "https://i.imgur.com/aL3HebP.jpg",
       "skills": [
         {
@@ -1162,7 +1162,7 @@
     {
       "name": "Young Kushina",
       "description": "Kushina is a kunoichi from the Hidden Leaf Village originated from the Hidden Eddy Village's Uzumaki Clan. Due to her special origins, Kushina has a red colored hair that constantly puts her into trouble.",
-      "place": 22,
+      "id": 22,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/740748673700593736/unknown.png",
       "skills": [
         {
@@ -1216,7 +1216,7 @@
     {
       "name": "Drunken Lee",
       "description": "Having accidentally drank sake, Lee's hidden Drunken Fist powers have awakened, completely changing his fighting style. While drunk, Lee attacks randomly, but is harder to stop the more he keeps fighting.",
-      "place": 23,
+      "id": 23,
       "avatar": "https://i.imgur.com/mP8x94U.jpg",
       "skills": [
         {
@@ -1273,7 +1273,7 @@
     {
       "name": "Rehabilitated Gaara",
       "description": "After his fateful encounter with Naruto, Gaara has left behind his murderous ways, and has instead rehabilitated. Gaara has honed his abilities to shape and craft his sand, allowing him to create giant waves of sand or quicksand traps.",
-      "place": 24,
+      "id": 24,
       "avatar": "https://i.imgur.com/3rj7f8d.jpg",
       "skills": [
         {
@@ -1342,7 +1342,7 @@
     {
       "name": "Oboro",
       "description": "A Rain Genin in the Chuunin exams, Oboro is vindictive ninja that specializes in genjutsu. Using the various illusions that Oboro creates, he is able to hide his true self while attacking from below.",
-      "place": 25,
+      "id": 25,
       "avatar": "https://i.imgur.com/DBsaS99.jpg",
       "skills": [
         {
@@ -1395,7 +1395,7 @@
     {
       "name": "Shigure",
       "description": "A genin from the village of rain, Shigure is a strong, but arrogant ninja. Using a number of Umbrellas, Shigure is able to attack all enemies with sharp senbon needles, or focus everything to one enemy.",
-      "place": 26,
+      "id": 26,
       "avatar": "https://i.imgur.com/ZoEQafG.jpg",
       "skills": [
         {
@@ -1448,7 +1448,7 @@
     {
       "name": "Akadou Yoroi",
       "description": "A sound village genin that infiltrated Konoha as a spy, Yoroi is a capable, but brash ninja who likes to toy with his enemies. Yoroi is capable of absorbing the strength of his enemies, and make it his own in more than one way.",
-      "place": 27,
+      "id": 27,
       "avatar": "https://i.imgur.com/060qNNB.jpg",
       "skills": [
         {
@@ -1504,7 +1504,7 @@
     {
       "name": "Tsurugi Misumi",
       "description": "A sound village genin that infiltrated Konoha as a spy, Misumi likes taking the initiative when it comes to combat. Misumi can flex his muscles and bones, twisting them to wrap around his enemies, or even defend his allies.",
-      "place": 28,
+      "id": 28,
       "avatar": "https://i.imgur.com/XhJRm9R.jpg",
       "skills": [
         {
@@ -1557,7 +1557,7 @@
     {
       "name": "Umino Iruka",
       "description": "An instructor for Konoha, Iruka is a caring man who has acted like something of a father and mentor to Naruto throughout his youth. Iruka fights with his allies in mind, preferring to protect them and help them as support.",
-      "place": 29,
+      "id": 29,
       "avatar": "https://i.imgur.com/LtDEUXs.jpg",
       "skills": [
         {
@@ -1614,7 +1614,7 @@
     {
       "name": "Mizuki",
       "description": "An instructor for Konoha, Mizuki is a chuunin, and old friend of Iruka that over time grew jealous and petty. While Mizuki doesn't have any special abilities, he knows to instead be patient, and wait until the right time to strike.",
-      "place": 30,
+      "id": 30,
       "avatar": "https://i.imgur.com/P5CYE5b.jpg",
       "skills": [
         {
@@ -1672,7 +1672,7 @@
     {
       "name": "Jiroubou",
       "description": "A member of the Sound Five, Jiroubou is the largest member of the team, and while he appears calm, is actually arrogant and easy to anger. Jiroubou uses his fists to attack his enemies or can manipulate the battleground around him.",
-      "place": 31,
+      "id": 31,
       "avatar": "https://i.imgur.com/7QDOEKi.jpg",
       "skills": [
         {
@@ -1728,7 +1728,7 @@
     {
       "name": "Kidoumaru",
       "description": "A member of the Sound Five, Kidoumaru resembles a spider in both appearance and fighting style. Kidoumaru is able to trap enemies in his web while assaulting them from afar with both spiders and powerful arrows.",
-      "place": 32,
+      "id": 32,
       "avatar": "https://i.imgur.com/ucBib4i.jpg",
       "skills": [
         {
@@ -1786,7 +1786,7 @@
     {
       "name": "Tayuya",
       "description": "A member of the Sound Five, Tayuya is the only female member of the team, and the most foul-mouthed one too. Tayuya uses her flute to both trap her enemies in genjutsu while controlling the beasts she summons.",
-      "place": 33,
+      "id": 33,
       "avatar": "https://i.imgur.com/KrWQAff.jpg",
       "skills": [
         {
@@ -1843,7 +1843,7 @@
     {
       "name": "Sakon and Ukon",
       "description": "A member of the Sound Five, Sakon, along with his brother Ukon, are nearly identical twins with a bloodline that let them live inside one another's body. Sakon and Ukon can double team an enemy, or invade another's body.",
-      "place": 34,
+      "id": 34,
       "avatar": "https://i.imgur.com/gvWVEJS.jpg",
       "skills": [
         {
@@ -1897,7 +1897,7 @@
     {
       "name": "Kaguya Kimimaro",
       "description": "A member of the Sound Five, Kimimaro was the leader, and the strongest of the team before his illness. Kimimaro's bloodline grants him unstoppable offensive power, however, his illness is slowly killing him, giving him precious little time.",
-      "place": 35,
+      "id": 35,
       "avatar": "https://i.imgur.com/y0cd0B6.jpg",
       "skills": [
         {
@@ -1958,7 +1958,7 @@
     {
       "name": "Mitarashi Anko",
       "description": "A former student of Orochimaru and bearer of the Cursed Seal, Anko is now a teacher at Konoha. Having learned from Orochimaru, Anko utilizes various types of poisons and forbidden techniques to dismantle her enemies.",
-      "place": 36,
+      "id": 36,
       "avatar": "https://i.imgur.com/U5v1Rcf.jpg",
       "skills": [
         {
@@ -2027,7 +2027,7 @@
     {
       "name": "Gekko Hayate",
       "description": "A Jounin and exam proctor from Konoha; while sickly and afflicted with a chronic cough, he is calm and composed. Hayate is an expert sword user, and is well acquainted with using stealth to increase the deadliness of his attacks.",
-      "place": 37,
+      "id": 37,
       "avatar": "https://i.imgur.com/27uiJA7.jpg",
       "skills": [
         {
@@ -2084,7 +2084,7 @@
     {
       "name": "Shizune",
       "description": "The apprentice to Tsunade, and the niece of Dan, Shizune is a calm, practical but loyal ninja of Konoha's medical squad. Shizune is agile and quick, able to attack continually when not using her powerful medical jutsu to heal her allies.",
-      "place": 38,
+      "id": 38,
       "avatar": "https://i.imgur.com/TYK8ol3.jpg",
       "skills": [
         {
@@ -2129,7 +2129,7 @@
     {
       "name": "Hatake Kakashi",
       "description": "The squad leader of Team 7, known as the Copy Ninja, Kakashi is a man who puts the life of his teammates above all else. Kakashi is able to copy the abilities of his enemies while using his own original technique, the Raikiri.",
-      "place": 39,
+      "id": 39,
       "avatar": "https://i.imgur.com/pRcnSPW.jpg",
       "skills": [
         {
@@ -2188,7 +2188,7 @@
     {
       "name": "Yuhi Kurenai",
       "description": "The squad leader of Team 8, Kurenai is a caring woman and a close companion to Asuma. Kurenai is a genjutsu master, being able to use a variety of illusions to disrupt and trap her enemies in nigh impossible to escape illusions.",
-      "place": 40,
+      "id": 40,
       "avatar": "https://i.imgur.com/Y8H4GaZ.jpg",
       "skills": [
         {
@@ -2258,7 +2258,7 @@
     {
       "name": "Sarutobi Asuma",
       "description": "The squad leader of Team 10, Asuma is the son of the 3rd Hokage; Asuma is a chronic smoker that fights to protect his allies. Asuma fights with a pair of trench knives, augmented by his chakra to a highly deadly degree.",
-      "place": 41,
+      "id": 41,
       "avatar": "https://i.imgur.com/HV0tCHT.jpg",
       "skills": [
         {
@@ -2339,7 +2339,7 @@
     {
       "name": "Maito Gai",
       "description": "The squad leader of Team Gai, and father-like figure to Lee, Gai is a passionate man that's always there for those who need him. In combat, Gai's taijutsu has no equal, being able to open the Eight Gates and pound away at all threats.",
-      "place": 42,
+      "id": 42,
       "avatar": "https://i.imgur.com/s4q8Evn.jpg",
       "skills": [
         {
@@ -2398,7 +2398,7 @@
     {
       "name": "Uzumaki Kushina",
       "description": "The mother of Uzumaki Naruto, wife to Minato and once the jinchuuriki to the nine-tailed fox. Kushina specializes in unique sealing and barrier techniques that can hinder and disable even the strongest of enemies.",
-      "place": 43,
+      "id": 43,
       "avatar": "https://i.imgur.com/BcWzfuD.jpg",
       "skills": [
         {
@@ -2471,7 +2471,7 @@
     {
       "name": "Namikaze Minato",
       "description": "A Jounin, and Squad Leader of Konoha, known as the Yellow Flash, Minato is the father of Naruto. Minato fights using space-time jutsu and a number of unique kunai to teleport around the battlefield.",
-      "place": 44,
+      "id": 44,
       "avatar": "https://i.imgur.com/bVLkunH.jpg",
       "skills": [
         {
@@ -2532,7 +2532,7 @@
     {
       "name": "Baki",
       "description": "A Jounin of the Sand Village, and the leader of Gaara's team; Baki is cruel and ruthless, despite his normally calm nature. Baki fights using both taijutsu and ninjutsu together with top of the line Sand Village branded Flak Jackets.",
-      "place": 45,
+      "id": 45,
       "avatar": "https://i.imgur.com/NO5GmnK.jpg",
       "skills": [
         {
@@ -2588,7 +2588,7 @@
     {
       "name": "Yakushi Kabuto",
       "description": "Kabuto is the close assistant and confidant to Orochimaru; calm, logical and highly intelligent, Kabuto is a mystery to many. Kabuto knows how to disrupt an enemy's body while regenerating his own.",
-      "place": 46,
+      "id": 46,
       "avatar": "https://i.imgur.com/E11xIcP.jpg",
       "skills": [
         {
@@ -2661,7 +2661,7 @@
     {
       "name": "Tsunade",
       "description": "One of the three sannins, Tsunade is a gambling, sake drinking loving woman with a tough exterior but soft interior. Tsunade is an expert at medical jutsu, using it to remove all her wounds, or delivering high impact kicks.",
-      "place": 47,
+      "id": 47,
       "avatar": "https://i.imgur.com/zJqAumx.jpg",
       "skills": [
         {
@@ -2731,7 +2731,7 @@
     {
       "name": "Jiraiya",
       "description": "One of the three sannins, Jiraiya is a perverted frog hermit who travels the world in search of some sort of knowledge. Using numerous frog based summons, Jiraiya can greatly hinder his enemies all while setting them ablaze.",
-      "place": 48,
+      "id": 48,
       "avatar": "https://i.imgur.com/IBKeuRK.jpg",
       "skills": [
         {
@@ -2804,7 +2804,7 @@
     {
       "name": "Orochimaru",
       "description": "One of the three sannins, Orochimaru craves nothing more than to learn all the jutsu and abilities in the world. Orochimaru uses his snake summons and cursed seals to various effects, beating down his enemies regardless of their defenses.",
-      "place": 49,
+      "id": 49,
       "avatar": "https://i.imgur.com/sahda1H.jpg",
       "skills": [
         {
@@ -2877,7 +2877,7 @@
     {
       "name": "ET Senju Hashirama",
       "description": "The first Hokage, and founder of the Hidden Leaf Village; Hashirama, a member of the legendary Senju clan. Hashirama has the unique ability to give life to trees, creating them, and manipulating them to assault the enemy team while protecting his own.",
-      "place": 50,
+      "id": 50,
       "avatar": "https://i.imgur.com/lx7k4ta.jpg",
       "skills": [
         {
@@ -2934,7 +2934,7 @@
     {
       "name": "ET Senju Tobirama",
       "description": "The second Hokage of the Hidden Leaf Village; Tobirama, a member of the Senju clan, puts the well being of the village and people above all else. Tobirama is a master of many jutsu, using both ninjutsu and genjutsu to stop the enemies in different ways.",
-      "place": 51,
+      "id": 51,
       "avatar": "https://i.imgur.com/tO7VWKo.jpg",
       "skills": [
         {
@@ -2991,7 +2991,7 @@
     {
       "name": "Sarutobi Hiruzen",
       "description": "The third and most recent Hokage of the Hidden Leaf Village to die; Hiruzen, known as the God of Shinobi was considered to be one of the strongest ninja to ever live in his prime. While powerful using just his normal jutsu, Hiruzen is able to pull out a trump card when desperation strikes.",
-      "place": 52,
+      "id": 52,
       "avatar": "https://i.imgur.com/OUgT0V5.jpg",
       "skills": [
         {
@@ -3066,7 +3066,7 @@
     {
       "name": "Yondaime Minato",
       "description": "The fourth Hokage of the Hidden Leaf Village; considered to be one of the fastest ninja ever, Minato is a talented man, and the father of Uzumaki Naruto, and the one who sealed the Kyuubi inside of him. Having mastered the time-space skills, Minato is capable of merging them with powerful ninjutsu for powerful effects.",
-      "place": 53,
+      "id": 53,
       "avatar": "https://i.imgur.com/DsFnGsQ.jpg",
       "skills": [
         {
@@ -3131,7 +3131,7 @@
     {
       "name": "Demon Brothers",
       "description": "A duo of Mist ninja who work for Zabuza, the Demon Brothers specialize in assassinating their targets with their shuriken chain. Using their weapons and teamwork, the Demon Brothers can gang up on one enemy, disable him, and then kill him.",
-      "place": 54,
+      "id": 54,
       "avatar": "https://i.imgur.com/YU7VX3M.jpg",
       "skills": [
         {
@@ -3200,7 +3200,7 @@
     {
       "name": "Haku",
       "description": "The sole survivor of the Yuki clan, and the subordinate of Zabuza; Haku, despite being young, holds enough potential strength to surpass almost any ninja. Using his ice based bloodline, and his intelligence, Haku can attack and defend nearly simultaneously.",
-      "place": 55,
+      "id": 55,
       "avatar": "https://i.imgur.com/aOI3nqf.jpg",
       "skills": [
         {
@@ -3259,7 +3259,7 @@
     {
       "name": "Momochi Zabuza",
       "description": "Zabuza is a missing-nin from the Hidden Mist Village that specializes in silent assassination. Using the various ninjutsu abilities Zabuza has, he is able to attack his enemies all at once, or stealthily try to kill them.",
-      "place": 56,
+      "id": 56,
       "avatar": "https://i.imgur.com/MfQw16g.jpg",
       "skills": [
         {
@@ -3320,7 +3320,7 @@
     {
       "name": "Kyuubi Naruto",
       "description": "Naruto's anger and desperation has forced the Kyuubi's chakra to come up to the surface, changing Naruto into a single-minded beast with a nearly endless amount of chakra. With the Kyuubi chakra around Naruto, he is able to unleash powerful waves of raw chakra to endow his power further, or gather it back to guard and heal him.",
-      "place": 57,
+      "id": 57,
       "avatar": "https://i.imgur.com/YEKXhxq.jpg",
       "skills": [
         {
@@ -3382,7 +3382,7 @@
     {
       "name": "Cursed Seal Sasuke",
       "description": "Having gotten used to the Cursed Seal, Sasuke is able to draw Orochimaru's vile chakra through it, becoming a twisted hideous version of himself, but also getting stronger and faster. With the Cursed Seal, Sasuke's powers have exponentially increased, allowing him to pierce or trap enemies with his dark chakra.",
-      "place": 58,
+      "id": 58,
       "avatar": "https://i.imgur.com/LMkDtoH.jpg",
       "skills": [
         {
@@ -3441,7 +3441,7 @@
     {
       "name": "Shukaku Gaara",
       "description": "Having lived inside him the whole time, Shukaku is one of the nine tailed beasts and is very eager to escape and cause chaos to the world. While Shukaku slowly takes over Gaara, his own power increases, allowing him to demolish his foes with powerful sand attacks.",
-      "place": 59,
+      "id": 59,
       "avatar": "https://i.imgur.com/uC9FOvX.jpg",
       "skills": [
         {
@@ -3518,7 +3518,7 @@
     {
       "name": "Butterfly Chouji",
       "description": "Chouji has evolved into butterfly mode by consuming all three akimichi's coloured pills, gaining incredible speed and strenght at the cost of rapid weight loss.",
-      "place": 60,
+      "id": 60,
       "avatar": "https://i.imgur.com/QkgMbqM.png",
       "skills": [
         {
@@ -3580,7 +3580,7 @@
     {
       "name": "Hoshigaki Kisame",
       "description": "Formerly one of the Seven Swordsmen of the Mist Village, Kisame is an S-Rank missing ninja that is now a member of Akatsuki, having been partnered with Uchiha Itachi. Using his powerful, and ominous sword, mixed with his powerful water based ninjutsu, Kisame can disable enemies in every manner of way.",
-      "place": 61,
+      "id": 61,
       "avatar": "https://i.imgur.com/3fyxx9s.jpg",
       "skills": [
         {
@@ -3635,7 +3635,7 @@
     {
       "name": "Uchiha Itachi",
       "description": "The only other surviving Uchiha, Itachi is a master of doujutsu, an S-Rank missing nin, and a member of Akatsuki, having been partnered with Hoshigaki Kisame. Despite being powerful, Itachi is slowly going blind, making his abilities weaker, but when Itachi activates his Sharingan he becomes an unstoppable force of pure power.",
-      "place": 62,
+      "id": 62,
       "avatar": "https://i.imgur.com/CJq4L3b.jpg",
       "skills": [
         {
@@ -3697,7 +3697,7 @@
     {
       "name": "Uzumaki Naruto (S)",
       "description": "Having trained with Jiraya for almost three years, Naruto has grown, both mentally and physically. With his training behind him, Naruto is able to utilize his clones even more, granting him strong defense while augmenting his already powerful rasengan.",
-      "place": 63,
+      "id": 63,
       "avatar": "https://i.imgur.com/lhqUN40.jpg",
       "skills": [
         {
@@ -3769,7 +3769,7 @@
     {
       "name": "Haruno Sakura (S)",
       "description": "With her extensive training under Tsunade for the last two and a half years, Sakura has gained a greater understanding of healing and the human body. While Sakura's physical strength and healing prowess have both increased, her greatest ability is a powerful chakra storing seal taught to her by Tsunade.",
-      "place": 65,
+      "id": 65,
       "avatar": "https://i.imgur.com/fDv1r8u.jpg",
       "skills": [
         {
@@ -3827,7 +3827,7 @@
     {
       "name": "Sai",
       "description": "A current member of the Elite ANBU Root, Sai is a quiet, but expressive individual with a mysterious past. Sai uses a set of brushes with a special ink to give life to his art, from tigers to lions to bears, that allow him to compete with his enemies.",
-      "place": 66,
+      "id": 66,
       "avatar": "https://i.imgur.com/IdHPF6Y.jpg",
       "skills": [
         {
@@ -3897,7 +3897,7 @@
     {
       "name": "Inuzuka Kiba (S)",
       "description": "Over the last several years. Kiba, and his dog, Akamaru have grown considerably, not wanting to be left last in their group. Having improved their team work, and provided they are given enough time, Kiba and Akamaru can become unstoppable rampaging beasts.",
-      "place": 67,
+      "id": 67,
       "avatar": "https://i.imgur.com/uqxqxud.jpg",
       "skills": [
         {
@@ -3976,7 +3976,7 @@
     {
       "name": "Aburame Shino (S)",
       "description": "Still as mysterious and secretive as ever, Shino has improved greatly over the years, learning and practicing with his loyal bugs. With his new found mastery, Shino can disable enemies even harder while slowly waiting for his bugs to erupt from their bodies and destroy them.",
-      "place": 68,
+      "id": 68,
       "avatar": "https://i.imgur.com/b9RYfHI.jpg",
       "skills": [
         {
@@ -4047,7 +4047,7 @@
     {
       "name": "Hyuuga Hinata (S)",
       "description": "With the Chuunin Exam behind her, and with Naruto's words deep in her heart, Hinata has grown and become stronger and a woman. With her mastery of the Hyuuga clan tactics, Hinata can give life to powerful chakra lions while hindering her enemies' chakra paths.",
-      "place": 69,
+      "id": 69,
       "avatar": "https://i.imgur.com/V00dORd.jpg",
       "skills": [
         {
@@ -4104,7 +4104,7 @@
     {
       "name": "Nara Shikamaru (S)",
       "description": "Once known to be one of the laziest ninja, Shikamaru has worked tireless to become not only stronger, but a leader too. More than ever before, Shikamaru excels at coming up with long winded and convoluted plans meant to defeat any enemies in his path.",
-      "place": 70,
+      "id": 70,
       "avatar": "https://i.imgur.com/ohilgKw.png",
       "skills": [
         {
@@ -4164,7 +4164,7 @@
     {
       "name": "Akimichi Chouji (S)",
       "description": "After nearly three years, Chouji has developed in both strength and size, mastering the Akimichi clan techniques. No longer does Chouji need the Akimichi pills to tap into his true strength, instead, he merely needs to control his chakra and become a force to reckon with.",
-      "place": 71,
+      "id": 71,
       "avatar": "https://i.imgur.com/cpjcOma.jpg",
       "skills": [
         {
@@ -4224,7 +4224,7 @@
     {
       "name": "Yamanaka Ino (S)",
       "description": "Not one to be left behind, Ino has trained non-stop to improve her abilities and teamwork. With her improved techniques, Ino can not only control her enemies, but her allies too all while seeing everything on the battlefield.",
-      "place": 72,
+      "id": 72,
       "avatar": "https://i.imgur.com/MdT1rnR.jpg",
       "skills": [
         {
@@ -4283,7 +4283,7 @@
     {
       "name": "Rock Lee (S)",
       "description": "Now a chuunin, Lee has trained endlessly with Gai, and not only learned new abilities, but has learned what it truly means to fight. In battle, Lee now fights for his friends and allies, growing stronger as they fall around him.",
-      "place": 73,
+      "id": 73,
       "avatar": "https://i.imgur.com/Rndm6VG.jpg",
       "skills": [
         {
@@ -4339,7 +4339,7 @@
     {
       "name": "Tenten (S)",
       "description": "Now a chuunin, Tenten has added a myriad of powerful and potent weapons in her arsenal, even procuring the legendary fan of the sage of the six paths. Having an arsenal of weapons at her side, Tenten can chose to fight at different levels, upgrading her weapons until she finds something suitable for her battle.",
-      "place": 74,
+      "id": 74,
       "avatar": "https://i.imgur.com/QvuPmaF.jpg",
       "skills": [
         {
@@ -4439,7 +4439,7 @@
     {
       "name": "Hyuuga Neji (S)",
       "description": "The only of the original genins to become a Jounin, Neji has only increased his already powerful set of abilities and skills during the near three years of time. While still being able to rely on his pressure point attacks, Neji is now also able to unleash giant waves of chakra for brutish damage as well.",
-      "place": 75,
+      "id": 75,
       "avatar": "https://i.imgur.com/RQOMpEc.jpg",
       "skills": [
         {
@@ -4510,7 +4510,7 @@
     {
       "name": "Hatake Kakashi (S)",
       "description": "Kakashi has not let the years pass by idle, and has trained as hard as any other, improving his sharingan and his own unique jutsu. While Kakashi's raikiri is still a potent finisher, he is now also able to rely on his kamui, aiming it at his enemies or even rescuing his allies.",
-      "place": 76,
+      "id": 76,
       "avatar": "https://i.imgur.com/vsTfCCR.jpg",
       "skills": [
         {
@@ -4582,7 +4582,7 @@
     {
       "name": "Yamato",
       "description": "A member of the secretive ANBU organization and a man who was once injected with the cells of Hashirama, the 1st Hokage. Due to the cells that live inside of him, Yamato is capable of small scale wood element abilities, from trapping enemies to protecting his comrades.",
-      "place": 77,
+      "id": 77,
       "avatar": "https://i.imgur.com/rOl0Tjw.jpg",
       "skills": [
         {
@@ -4642,7 +4642,7 @@
     {
       "name": "Maito Gai (S)",
       "description": "Still the leader of Team Gai, Gai is not one to let himself fall behind in terms of training and strength. Gai no longer feels the need to go straight into the highest level of gates that he can, instead taking his time, until the time requires the green beast of Konoha to go all out.",
-      "place": 78,
+      "id": 78,
       "avatar": "https://i.imgur.com/rHu2cRP.jpg",
       "skills": [
         {
@@ -4721,7 +4721,7 @@
     {
       "name": "Sarutobi Asuma (S)",
       "description": "Somehow continuing to avoid lung cancer, Asuma has remained the leader of Team 10 through the years. With the secret techniques of the fire temple, Asuma is able to attack and defend while waiting for the opportune moment to slice some heads off.",
-      "place": 79,
+      "id": 79,
       "avatar": "https://i.imgur.com/fdESPB5.jpg",
       "skills": [
         {
@@ -4791,7 +4791,7 @@
     {
       "name": "Yamashiro Aoba",
       "description": "A Konoha jounin assigned to hunt down members of Akatsuki, Aoba while reserved in public, is more than willing to boast and brag in private. While a man of many talents, Aoba specializes in genjutsu that takes on the form of crows, being able to use them for all manner of purposes.",
-      "place": 80,
+      "id": 80,
       "avatar": "https://i.imgur.com/ByKR679.jpg",
       "skills": [
         {
@@ -4847,7 +4847,7 @@
     {
       "name": "Izumo and Kotetsu",
       "description": "A pair of Konoha chuunin assigned to hunt down members of Akatsuki, Izumo and Kotetsu are close friends, and great teammates. While individually not as strong as many others.",
-      "place": 81,
+      "id": 81,
       "avatar": "https://i.imgur.com/xi9W7p4.jpg",
       "skills": [
         {
@@ -4904,7 +4904,7 @@
     {
       "name": "Inuzuka Tsume",
       "description": "A Konoha jounin, a member of the Inuzuka clan, and the mother of Kiba, Tsume, much like her son, is a wild and impatient woman with an often odd sense of humor. Like other members of her clan, Tsume fights one with her companion, Kuromaru, while allowing her wild instincts to take over.",
-      "place": 82,
+      "id": 82,
       "avatar": "https://i.imgur.com/YjG8Xw0.jpg",
       "skills": [
         {
@@ -4976,7 +4976,7 @@
     {
       "name": "Akimichi Chouza",
       "description": "A Konoha jounin, a member of the Akimichi clan, and the father of Chouji, Chouza is a brave, wise man that instills great confidence in his allies. In a fight, Chouza uses his size to become a nuisance to his enemies while granting safety to his team.",
-      "place": 83,
+      "id": 83,
       "avatar": "https://i.imgur.com/8VJqNuB.jpg",
       "skills": [
         {
@@ -5035,7 +5035,7 @@
     {
       "name": "Morino Ibiki",
       "description": "A Konoha jounin, and the leader of the Torture and Interrogation force, Ibiki is a hard, sadistic man, who enjoys communicating through pain. Like his personality, Ibiki enjoys torturing his enemies, putting them in awkward situations where they have no choice but to lose.",
-      "place": 84,
+      "id": 84,
       "avatar": "https://i.imgur.com/iUolzUw.jpg",
       "skills": [
         {
@@ -5087,7 +5087,7 @@
       "mission": ["The Ruthless Interrogator", "Win 30 battles."]
     },
     {
-      "place": 85,
+      "id": 85,
       "name": "Anbu Captain Squad",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/847101476177313823/KtX7c9p.png",
       "description": "During the attack to the Hidden Leaf Village by Pain, three Konoha Anbu Captains got together to defend their village. Capable of using a variety of ninjutsu techniques, they are ready to do everything it's needed to stop Akatsuki from rampaging.",
@@ -5177,7 +5177,7 @@
     {
       "name": "Aburame Torune",
       "description": "A member of the Aburame clan, and a member of Anbu Root, Torune can almost be said to have no personality of his own, other than his undying loyalty to Danzo. Unlike other members of his clan, Torune employs a unique type of bug that lets him outright destroy both flesh and chakra.",
-      "place": 86,
+      "id": 86,
       "avatar": "https://i.imgur.com/Ge3Wcoy.jpg",
       "skills": [
         {
@@ -5238,7 +5238,7 @@
     {
       "name": "Yamanaka Fu",
       "description": "Yamanaka Fu is a member of the Yamanaka clan and a member of Anbu Root. Fu is a skilled genjutsu user and the partner of Torune.",
-      "place": 87,
+      "id": 87,
       "avatar": "https://i.imgur.com/iVhxEWL.jpg",
       "skills": [
         {
@@ -5305,7 +5305,7 @@
     {
       "name": "Shimura Danzo",
       "description": "The leader of Anbu Root, Danzo wishes nothing more than to become the Hokage, and while an extreme man with few morals, Danzo only wishes to protect Konoha. Thanks to Orochimaru, Danzo has gained access to many forbidden sharingan techniques that allow him to dominate any foe before him. Original Design: Pavera",
-      "place": 88,
+      "id": 88,
       "avatar": "https://i.imgur.com/7CoWBNW.jpg",
       "skills": [
         {
@@ -5391,7 +5391,7 @@
     {
       "name": "Tsunade (S)",
       "description": "No longer just a Sannin, Tsunade is the new Kage of Konoha, and has taken a large amount of responsibility on her shoulders. Knowing that holding back is no longer an option, Tsunade taps into her seal to gain an impressive power over her foes.",
-      "place": 89,
+      "id": 89,
       "avatar": "https://i.imgur.com/itj8Rm2.jpg",
       "skills": [
         {
@@ -5450,7 +5450,7 @@
     {
       "name": "Senju Hashirama",
       "description": "A member of the Senju clan, and one of the greatest warriors during the Warring States Period who went on to create Konoha. Even before becoming the Hokage, Hashirama proved his power and ability with his unmatched Wood Release jutsus.",
-      "place": 94,
+      "id": 94,
       "avatar": "https://i.imgur.com/cKXHNBc.jpg",
       "skills": [
         {
@@ -5508,7 +5508,7 @@
     {
       "name": "Senju Tobirama",
       "description": "Tobirama was a member of the renowned Senju clan, who, together with his elder brother and the Uchiha clan, founded the first Shinobi village: Konohagakure. Throughout his life, Tobirama created a lot of known shinobi techniques and became the Second Hokage.",
-      "place": 95,
+      "id": 95,
       "avatar": "https://i.imgur.com/85tgbgm.png",
       "skills": [
         {
@@ -5569,7 +5569,7 @@
       ]
     },
     {
-      "place": 96,
+      "id": 96,
       "name": "Uchiha Naori",
       "avatar": "https://i.imgur.com/JjUGNDU.png",
       "description": "Naori was a kunoichi from the Hidden Leaf Village's famed Uchiha clan. She is as calm as she is powerful, able to use one of her clan's kinjutsu: Izanami which traps the target in an endlessly-looped genjutsu with no hope of escaping unless they accept themselves.",
@@ -5635,7 +5635,7 @@
     {
       "name": "Kankuro (S)",
       "description": "In the last couple years Kankuro(s) has become a Jounin and has created a new puppet. He is now able to harness three puppets at once and is a more versatile combatant. Original Design: Yaseen16",
-      "place": 97,
+      "id": 97,
       "avatar": "https://i.imgur.com/odOPoQJ.png",
       "skills": [
         {
@@ -5704,7 +5704,7 @@
     {
       "name": "Temari (S)",
       "description": "Temari (S) has grown over the years. She is now a Jounin as well as the sister of Kankuro and Gaara. Temari is also the Hidden Sand Village's ambassador to the Hidden Leaf Village.",
-      "place": 98,
+      "id": 98,
       "avatar": "https://i.imgur.com/8x23OUp.png",
       "skills": [
         {
@@ -5782,7 +5782,7 @@
     {
       "name": "Kazekage Gaara",
       "description": "After a few short years and much soul-searching, Gaara has risen to be his village's Kazekage. Rather than destroying others he now protects those he cares about to prove his existence.",
-      "place": 100,
+      "id": 100,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/860273131524718592/xn9dTSI.png",
       "skills": [
         {
@@ -5842,7 +5842,7 @@
     {
       "name": "Akatsuchi",
       "description": "Akatsuchi is a shinobi of the Hidden Rock Village. Akatsuchi is a powerful shinobi who uses brute strength and earth style jutsus in combat.",
-      "place": 101,
+      "id": 101,
       "avatar": "https://i.imgur.com/B9itJMF.png",
       "skills": [
         {
@@ -5901,7 +5901,7 @@
     {
       "name": "Kurotsuchi",
       "description": "Kurotsuchi is a shinobi of the Hidden Rock Village and the Partner of Akatsuchi. She is also the granddaughter of the third Tsuchikage.",
-      "place": 102,
+      "id": 102,
       "avatar": "https://i.imgur.com/qvaktwP.png",
       "skills": [
         {
@@ -5959,7 +5959,7 @@
     {
       "name": "Ittan",
       "description": "Ittan is a Hidden Rock Village shinobi. Ittan is battle hardened and extremely calm during battle.",
-      "place": 103,
+      "id": 103,
       "avatar": "https://i.imgur.com/jZ0FDa8.jpg",
       "skills": [
         {
@@ -6019,7 +6019,7 @@
     {
       "name": "Kitsuchi",
       "description": "Kitsuchi is a jounin of the Hidden Rock Village and the son of the Sandaime Tsuchikage as well as the father of Kurotsuchi. Kitsuchi is also the commander of the allied shinobi forces second division.",
-      "place": 104,
+      "id": 104,
       "avatar": "https://i.imgur.com/XxML3kV.jpg",
       "skills": [
         {
@@ -6079,7 +6079,7 @@
     {
       "name": "Ohnoki",
       "description": "Ohnoki, renowned as 'Onoki of Both Scales', was the Third Tsuchikage of Iwagakure.",
-      "place": 105,
+      "id": 105,
       "avatar": "https://i.imgur.com/5np3XzG.png",
       "skills": [
         {
@@ -6154,7 +6154,7 @@
     {
       "name": "Atsui",
       "description": "Atsui is a skilled swordsmen of the Hidden Cloud Village as well as the hot blooded brother of Samui.",
-      "place": 106,
+      "id": 106,
       "avatar": "https://i.imgur.com/IhjTDJg.jpg",
       "skills": [
         {
@@ -6216,7 +6216,7 @@
     {
       "name": "Omoi",
       "description": "Omoi is a Hidden Cloud Village shinobi and a student of Killer Bee. Having been trained by Killer Bee naturally he is an exceptional swordsman.",
-      "place": 107,
+      "id": 107,
       "avatar": "https://i.imgur.com/iy5Bn1m.png",
       "skills": [
         {
@@ -6288,7 +6288,7 @@
     {
       "name": "Shee",
       "description": "Shee is a jounin of the Hidden Cloud Village and a sensor. Shee is one of the Raikage's most reliable shinobi.",
-      "place": 108,
+      "id": 108,
       "avatar": "https://i.imgur.com/COyvfu4.png",
       "skills": [
         {
@@ -6346,7 +6346,7 @@
     {
       "name": "Dodai",
       "description": "Dodai is a skilled sensor shinobi and a lava release user as well. His intelligence is his most powerful asset and he will need it to survive this war.",
-      "place": 109,
+      "id": 109,
       "avatar": "https://i.imgur.com/Yafza3K.jpg",
       "skills": [
         {
@@ -6405,7 +6405,7 @@
     {
       "name": "Nii Yugito",
       "description": "A kunoichi from Kumogakure, Nii Yugito holds within her the two-tailed beast. She has full control over the bijuu Nibi, and is able to transform into it and use its powers to fight.",
-      "place": 110,
+      "id": 110,
       "avatar": "https://i.imgur.com/IOvD0aM.jpg",
       "skills": [
         {
@@ -6462,7 +6462,7 @@
       ]
     },
     {
-      "place": 111,
+      "id": 111,
       "name": "Roshi",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/796378836559724564/unknown.png",
       "description": "Roshi is a shinobi from the Hidden Rock Village and also the jinchuuriki of the Four-Tails, Son Goku. He is known to be one of the best Lava Release users of the whole ninja world, masterizing it throughout his lifetime.",
@@ -6535,7 +6535,7 @@
     {
       "name": "Utakata",
       "description": "Utakata is a missing nin from the Hidden Mist Village and the jinchuuriki for the six tailed slug Rokubi. A distant person most of the time Utakata is a kind shinobi who uses bubble line ninjutsu in many ways.",
-      "place": 112,
+      "id": 112,
       "avatar": "https://i.imgur.com/Uzpi44m.png",
       "skills": [
         {
@@ -6594,7 +6594,7 @@
     {
       "name": "Killer Bee",
       "description": "Killer Bee is the jinchuriki from Kumogakure. Bee (S) is referred to as the hero of Kumogakure and possess immense physical strength as well as being an expert swordsmen.",
-      "place": 113,
+      "id": 113,
       "avatar": "https://i.imgur.com/HINa7fD.png",
       "skills": [
         {
@@ -6650,7 +6650,7 @@
     {
       "name": "Hachibi Bee",
       "description": "Hachibi Bee has complete control of the Hachibi within him. This allows Bee to use all forms of the Hachibi's power at will making him a true killer shinobi.",
-      "place": 114,
+      "id": 114,
       "avatar": "https://i.imgur.com/g9XZBx8.jpg",
       "skills": [
         {
@@ -6709,7 +6709,7 @@
     {
       "name": "Hozuki Suigetsu",
       "description": "Hozuki Suigetsu is a native of Kirigakure who was once a captive of Orochimaru. He is a dangerous individual with unique abilities and now follows Uchiha Sasuke.",
-      "place": 115,
+      "id": 115,
       "avatar": "https://i.imgur.com/PxP454E.png",
       "skills": [
         {
@@ -6775,7 +6775,7 @@
     {
       "name": "Karin",
       "description": "Karin is a former subordinate of Orochimaru who oversaw one of his secret laboratories. She is a skilled sensor and master of chakra control who now follows Uchiha Sasuke.",
-      "place": 116,
+      "id": 116,
       "avatar": "https://i.imgur.com/nKQtUeG.png",
       "skills": [
         {
@@ -6835,7 +6835,7 @@
     {
       "name": "Juugo",
       "description": "Juugo is the origin of the cursed seal and now follows Sasuke. He can either be a calm natured person or a psychotic lunatic.",
-      "place": 117,
+      "id": 117,
       "avatar": "https://i.imgur.com/autOcrF.png",
       "skills": [
         {
@@ -6896,7 +6896,7 @@
     {
       "name": "Cursed Seal Juugo",
       "description": "Cursed Seal Juugo is fully transformed and no longer recognizable. Becoming a psychotic lunatic Juugo is able to maintain absurd amounts of chakra making him nearly impossible to defeat.",
-      "place": 118,
+      "id": 118,
       "avatar": "https://i.imgur.com/yGPIUaK.jpg",
       "skills": [
         {
@@ -6953,7 +6953,7 @@
     {
       "name": "Uchiha Sasuke (S)",
       "description": "Uchiha Sasuke (S) has spent the last 2 years training under Orochimaru. He is now an expert swordsman and has immensely developed his lightning element techniques. His demeanor has also grown very cold and he is one of the most dangerous individuals in the ninja world.",
-      "place": 119,
+      "id": 119,
       "avatar": "https://i.imgur.com/Ff5mtPx.png",
       "skills": [
         {
@@ -7026,7 +7026,7 @@
     {
       "name": "Mangekyou Sasuke",
       "description": "Mangekyou Sasuke, Sasuke after defeating his older brother Itachi has gained the mangekyou sharingan. That combined with his embrace of darkness makes him one of the deadliest shinobi alive.",
-      "place": 120,
+      "id": 120,
       "avatar": "https://i.imgur.com/7tLUSd3.png",
       "skills": [
         {
@@ -7087,7 +7087,7 @@
     {
       "name": "Yakushi Kabuto (S)",
       "description": "Kabuto is the loyal servant of Orochimaru and is a very dangerous missing-nin. He is a calculating individual who is both accomplished at combat and healing.",
-      "place": 121,
+      "id": 121,
       "avatar": "https://i.imgur.com/PmPvnCi.png",
       "skills": [
         {
@@ -7143,7 +7143,7 @@
     {
       "name": "Jiraiya (S)",
       "description": "Jiraiya is one of the legendary Sannin that were trained by the third Hokage. Also known as the toad sage, he has been Uzumaki Naruto's teacher for the past few years.",
-      "place": 122,
+      "id": 122,
       "avatar": "https://i.imgur.com/b2Uvba3.png",
       "skills": [
         {
@@ -7213,7 +7213,7 @@
     {
       "name": "Orochimaru (S)",
       "description": "Orochimaru returns, strong as ever and with some new tricks up his sleeve. But his body seems to be on borrowed time.",
-      "place": 123,
+      "id": 123,
       "avatar": "https://i.imgur.com/b3BFPng.png",
       "skills": [
         {
@@ -7284,7 +7284,7 @@
       ]
     },
     {
-      "place": 124,
+      "id": 124,
       "name": "Chiriku",
       "avatar": "https://i.imgur.com/Wz34WaO.png",
       "description": "Chiriku is a ninja monk from the Fire Temple. He was once part of the Twelve Guardian Ninja, when he developed a strong friendship with Sarutobi Asuma.",
@@ -7350,7 +7350,7 @@
     {
       "name": "Kisame Body Double",
       "description": "By using one of Pain's techniques a Sand Nin spy for Akatsuki is changed to look like Kisame. The body double is controlled by Kisame but only has a third of his chakra.",
-      "place": 125,
+      "id": 125,
       "avatar": "https://i.imgur.com/FUeMLRK.png",
       "skills": [
         {
@@ -7416,7 +7416,7 @@
     {
       "name": "Deidara",
       "description": "A former ninja of the Earth Village and now a junior Akatsuki member, Deidara(s) is able to fuse clay and chakra to create devastating explosives.",
-      "place": 126,
+      "id": 126,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/798004556659163147/unknown.png",
       "skills": [
         {
@@ -7500,7 +7500,7 @@
     {
       "name": "Sasori of the Red Sand",
       "description": "Sasori is a senior Akatsuki member and a legendary puppet master. He is even rumored to have defeated an entire nation with puppets alone. Original Design: Pavera",
-      "place": 127,
+      "id": 127,
       "avatar": "https://i.imgur.com/fkYAWm0.png",
       "skills": [
         {
@@ -7589,7 +7589,7 @@
       ]
     },
     {
-      "place": 128,
+      "id": 128,
       "name": "Hidan",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/826800145424449546/UYq0PoK.png",
       "description": "Hidan(s) is a member of Akatsuki and a worshiper of the obscure god Jashin. He is apparently immortal and has perhaps the foulest mouth of the entire criminal organization.",
@@ -7675,7 +7675,7 @@
     {
       "name": "Kakuzu",
       "description": "A missing-nin of mysterious talents and a member of Akatsuki, Kakuzu(s) is certainly older than he appears. He seems to only be concerned with money and the bounties which provide him with it.",
-      "place": 129,
+      "id": 129,
       "avatar": "https://i.imgur.com/JNraJCf.jpg",
       "skills": [
         {
@@ -7755,7 +7755,7 @@
     },
     {
       "name": "Hoshigaki Kisame (S)",
-      "place": 130,
+      "id": 130,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/847102726319767572/hwWMKH7.png",
       "description": "Hoshigake Kisame (S) is the partner of Uchiha Itachi in Akatsuki. He is an expert swordsman and missing nin from the Hidden Mist Village.",
       "skills": [
@@ -7848,7 +7848,7 @@
     {
       "name": "Uchiha Itachi (S)",
       "description": "Uchiha Itachi (S) is a member of Akatsuki, and the brother of Uchiha Sasuke. He has mastered the sharingan completely.",
-      "place": 131,
+      "id": 131,
       "avatar": "https://i.imgur.com/V6SZNLI.png",
       "skills": [
         {
@@ -7937,7 +7937,7 @@
     {
       "name": "Konan",
       "description": "Konan is a member of Akatsuki and a master of origami ninjutsu, earning her the title God's Angel in Amegakure. Able to turn her body into thick sheets of paper, she is capable of multiple forms of attack.",
-      "place": 132,
+      "id": 132,
       "avatar": "https://i.imgur.com/9PcP5PF.png",
       "skills": [
         {
@@ -7994,7 +7994,7 @@
     {
       "name": "Konan of the Rain",
       "description": "Konan of the Rain has returned to the Hidden Rain village. Now that Uzumaki Nagato is dead she is aligned with Uzumaki Naruto and his quest for peace.",
-      "place": 133,
+      "id": 133,
       "avatar": "https://i.imgur.com/nZpZCPd.png",
       "skills": [
         {
@@ -8066,7 +8066,7 @@
     {
       "name": "Uzumaki Nagato",
       "description": "Uzumaki Nagato is the leader of Akatsuki and is also known as Pain. He is in control of the six paths of Pain and was a former student of Jiraiya. Nagato possess the rinnegan and may be the strongest ninja in the shinobi world.",
-      "place": 134,
+      "id": 134,
       "avatar": "https://i.imgur.com/2ELCRGm.png",
       "skills": [
         {
@@ -8126,7 +8126,7 @@
     {
       "name": "Animal Path Pain",
       "description": "Animal Path Pain is one of the six paths of Pain. This Path is able to summon a variety of different beasts for different purposes.",
-      "place": 135,
+      "id": 135,
       "avatar": "https://i.imgur.com/IQq1uSS.png",
       "skills": [
         {
@@ -8184,7 +8184,7 @@
     {
       "name": "Asura Path Pain",
       "description": "Asura Path Pain is one of the six paths of Pain. His body style is similar to a puppet filled with hidden weapons.",
-      "place": 136,
+      "id": 136,
       "avatar": "https://i.imgur.com/OCcShkL.png",
       "skills": [
         {
@@ -8247,7 +8247,7 @@
     {
       "name": "Human Path Pain",
       "description": "Human Path Pain is one of the six paths of Pain. This path is a mind reader and gathers intel for the other paths.",
-      "place": 137,
+      "id": 137,
       "avatar": "https://i.imgur.com/2JiKGi8.png",
       "skills": [
         {
@@ -8300,7 +8300,7 @@
     {
       "name": "Naraka Path Pain",
       "description": "Naraka Path Pain is one of the six path's of Pain. This path is able to interrogate it's enemies at will. Naraka Path Pain can also give life as well as take it.",
-      "place": 138,
+      "id": 138,
       "avatar": "https://i.imgur.com/41OloHT.png",
       "skills": [
         {
@@ -8356,7 +8356,7 @@
     {
       "name": "Preta Path Pain",
       "description": "Preta Path Pain is one of the six paths of Pain. This path is able to nulify jutsus and is used mostly for defensive tactics.",
-      "place": 139,
+      "id": 139,
       "avatar": "https://i.imgur.com/gAl7bIC.png",
       "skills": [
         {
@@ -8410,7 +8410,7 @@
     {
       "name": "Deva Path Pain",
       "description": "Deva Path Pain is one of the six path's of Pain. This path is able to use itself as the epicenter of magnetism to attract or repel all objects. This path holds the most power and is the main force in battle for Pain.",
-      "place": 140,
+      "id": 140,
       "avatar": "https://i.imgur.com/YvK17Iu.png",
       "skills": [
         {
@@ -8483,7 +8483,7 @@
       ]
     },
     {
-      "place": 141,
+      "id": 141,
       "name": "White Zetsu",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/826803235016802344/kMEoHT0.png",
       "description": "White Zetsu is half of the Akatsuki member known as Zetsu. He was one of the first victims of Kaguya's Infinite Tsukuyomi. This Zetsu is capable of having hundreds of clones of himself and also copying his enemies' faces and abilities.",
@@ -8539,7 +8539,7 @@
     {
       "name": "Tobi",
       "description": "Not much is known about Tobi other than he appears to be a member of the Uchiha clan.",
-      "place": 142,
+      "id": 142,
       "avatar": "https://i.imgur.com/l4j6hWg.png",
       "skills": [
         {
@@ -8597,7 +8597,7 @@
       ]
     },
     {
-      "place": 143,
+      "id": 143,
       "name": "Edo Tensei Asuma",
       "avatar": "https://i.imgur.com/38DKwEv.png",
       "description": "Asuma was revived by Kabuto in order to fight in the Fourth Shinobi World War. He is sent to fight the First Division and faces his former students as he tries to teach them one final lesson.",
@@ -8662,7 +8662,7 @@
     {
       "name": "Edo Tensei Ginkaku",
       "description": "Edo Tensei Ginkaku is one half of the legendary gold and silver brothers of the Hidden Cloud Village. They were the most notorious criminals in the history of the Hidden Cloud.",
-      "place": 144,
+      "id": 144,
       "avatar": "https://i.imgur.com/WuLM0Hc.png",
       "skills": [
         {
@@ -8719,7 +8719,7 @@
     {
       "name": "Edo Tensei Kinkaku",
       "description": "Edo Tensei Kinkaku is the other half of the legendary gold and silver brothers of the Hidden Cloud Village. They were the most notorious criminals in the history of the Hidden Cloud.",
-      "place": 145,
+      "id": 145,
       "avatar": "https://i.imgur.com/Nq4UgVF.png",
       "skills": [
         {
@@ -8778,7 +8778,7 @@
     {
       "name": "Edo Tensei Pakura",
       "description": "Edo Tensei Pakura was a reviled Shinobi of the Hidden Sand in the past. So much so that she was revived against her will to participate in the fourth shinobi world war.",
-      "place": 146,
+      "id": 146,
       "avatar": "https://i.imgur.com/rgOCWNZ.png",
       "skills": [
         {
@@ -8832,7 +8832,7 @@
       ]
     },
     {
-      "place": 147,
+      "id": 147,
       "name": "Edo Tensei Gari",
       "avatar": "https://i.imgur.com/pVbIIb7.png",
       "description": "Edo Tensei Gari is a former member of the Hidden Rock Village's explosives corps. Edo Tensei Gari has been summoned to do battle in the fourth great ninja war and he seems to be enjoying himself.",
@@ -8906,7 +8906,7 @@
     {
       "name": "Edo Tensei Fukai",
       "description": "Edo Tensei Fukai has been summoned using the edo tensei jutsu. He is powerless to stop himself from rampaging.",
-      "place": 148,
+      "id": 148,
       "avatar": "https://i.imgur.com/QccP0GF.jpg",
       "skills": [
         {
@@ -8967,7 +8967,7 @@
     {
       "name": "Edo Tensei Hanzo",
       "description": "Edo Tensei Hanzo has been summoned back from the dead in the middle of a battlefield and he is not happy about it. Edo Hanzo (S) will engage anyone that crosses his path as he did when he was alive.",
-      "place": 149,
+      "id": 149,
       "avatar": "https://i.imgur.com/PT77LSC.png",
       "skills": [
         {
@@ -9041,7 +9041,7 @@
     {
       "name": "Edo Tensei Chiyo",
       "description": "Edo Tensei Chiyo has been summoned back from the afterlife. She may not like it but she will do her best to help her opponents out with information while she is forced to fight.",
-      "place": 150,
+      "id": 150,
       "avatar": "https://i.imgur.com/butkGJ1.jpg",
       "skills": [
         {
@@ -9105,7 +9105,7 @@
     {
       "name": "Edo Tensei Chukichi",
       "description": "Edo Tensei Chukichi is back on the battlefield and he is being forced to combat his comrades against his will.",
-      "place": 151,
+      "id": 151,
       "avatar": "https://i.imgur.com/d92Pwra.png",
       "skills": [
         {
@@ -9165,7 +9165,7 @@
     {
       "name": "Edo Tensei Toroi",
       "description": "Edo Tensei Toroi is back on the battlefield wreaking havoc as he goes. It will be a difficult situation for whoever may come across him.",
-      "place": 152,
+      "id": 152,
       "avatar": "https://i.imgur.com/lHg31Zl.jpg",
       "skills": [
         {
@@ -9231,7 +9231,7 @@
     {
       "name": "Edo Tensei Jiroubou",
       "description": "One of the members of the Sound Five, Jiroubou was reincarnated by Kabuto Yakushi along with his Sound Four teammates during the Fourth Shinobi World War.",
-      "place": 154,
+      "id": 154,
       "avatar": "https://i.imgur.com/qtN4hMJ.png",
       "skills": [
         {
@@ -9290,7 +9290,7 @@
     {
       "name": "Edo Tensei Kidoumaru",
       "description": "One of the members of the Sound Five, Kidoumaru was reincarnated by Kabuto Yakushi along with his Sound Four teammates during the Fourth Shinobi World War.",
-      "place": 155,
+      "id": 155,
       "avatar": "https://i.imgur.com/2dlLKEq.png",
       "skills": [
         {
@@ -9362,7 +9362,7 @@
     {
       "name": "Edo Tensei Tayuya",
       "description": "One of the members of the Sound Five, Tayuya was reincarnated by Kabuto Yakushi along with her Sound Four teammates during the Fourth Shinobi World War.",
-      "place": 156,
+      "id": 156,
       "avatar": "https://i.imgur.com/aOsY47m.png",
       "skills": [
         {
@@ -9422,7 +9422,7 @@
     {
       "name": "Edo Tensei Sakon and Ukon",
       "description": "Sakon and Ukon were reincarnated by Kabuto along with their Sound Four members during the Fourth Shinobi World War. Now immortals and enhanced by Kabuto's power, they're looking to wreak havoc on the battlefield.",
-      "place": 157,
+      "id": 157,
       "avatar": "https://i.imgur.com/59uo6Gm.png",
       "skills": [
         {
@@ -9482,7 +9482,7 @@
     {
       "name": "Edo Tensei Kimimaro",
       "description": "Edo Tensei Kimimaro is back and he is wreaking havoc. He has no problem shredding his enemies as he marches up and down the battlefield.",
-      "place": 158,
+      "id": 158,
       "avatar": "https://i.imgur.com/Kc3DcwL.jpg",
       "skills": [
         {
@@ -9542,7 +9542,7 @@
     {
       "name": "Edo Tensei Haku",
       "description": "Edo Tensei Haku is not sure why he is among the living again but his dream of protecting Zabuza pushes him to go all out.",
-      "place": 159,
+      "id": 159,
       "avatar": "https://i.imgur.com/sys3w70.png",
       "skills": [
         {
@@ -9604,7 +9604,7 @@
     {
       "name": "Edo Tensei Zabuza",
       "description": "Edo Tensei Zabuza has been summoned from the dead against his will. His unique abilities will surely be put to use on the battlefield.",
-      "place": 160,
+      "id": 160,
       "avatar": "https://i.imgur.com/rr73zLa.png",
       "skills": [
         {
@@ -9664,7 +9664,7 @@
     {
       "name": "Edo Tensei Jinin",
       "description": "Edo Tensei Jinin is a former member of the seven swordsman of the mist. Using his sword Kabutowari he will demonstrate the power of the previous generation on the battlefield.",
-      "place": 161,
+      "id": 161,
       "avatar": "https://i.imgur.com/9RLsDM1.png",
       "skills": [
         {
@@ -9720,7 +9720,7 @@
     {
       "name": "Edo Tensei Ameyuri",
       "description": "Edo Tensei Ameyuri has been summoned from the dead to participate in the fourth ninja war. She wields the dual sharpest swords ever made.",
-      "place": 162,
+      "id": 162,
       "avatar": "https://i.imgur.com/mafD2SV.png",
       "skills": [
         {
@@ -9776,7 +9776,7 @@
     {
       "name": "Edo Tensei Kuriarare",
       "description": "Edo Tensei Kuriarare was a member of the Seven Swordsmen of the Mist and a member of the Hidden Mist Village's Anbu. During his life he committed countless atrocities and he is happy to be back from death to engage his newfound opponents.",
-      "place": 163,
+      "id": 163,
       "avatar": "https://i.imgur.com/mMPFSkD.png",
       "skills": [
         {
@@ -9836,7 +9836,7 @@
     {
       "name": "Edo Tensei Jinpachi",
       "description": "Edo Tensei Jinpachi is one of the previous Seven Swordsmen of the Mist and a particularly cruel individual.",
-      "place": 164,
+      "id": 164,
       "avatar": "https://i.imgur.com/FqlJea8.jpg",
       "skills": [
         {
@@ -9899,7 +9899,7 @@
     {
       "name": "Edo Tensei Fuguki",
       "description": "Edo Tensei Fuguki is back from the dead and on a rampage. It does not concern him who he attacks or who is controlling him.",
-      "place": 165,
+      "id": 165,
       "avatar": "https://i.imgur.com/94ukGy6.jpg",
       "skills": [
         {
@@ -9954,7 +9954,7 @@
       ]
     },
     {
-      "place": 166,
+      "id": 166,
       "name": "Edo Tensei Mangetsu",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/785505521607901184/unknown.png",
       "description": "Mangetsu was a member of the Hidden Mist's Hozuki Clan and was reputed as Second Coming of the Demon. He was a member of the previous Seven Swordsmen of the Mist and was the only one able to wield all the seven swords. Mangetsu is Suigetsu's older brother.",
@@ -10016,7 +10016,7 @@
     {
       "name": "Edo Tensei Rasa",
       "description": "Edo Tensei Yondaime Kazekage (S) has been summoned to participate in the war. He will prioritize his village above all else while he is back.",
-      "place": 167,
+      "id": 167,
       "avatar": "https://i.imgur.com/W07QRSX.png",
       "skills": [
         {
@@ -10076,7 +10076,7 @@
     {
       "name": "Edo Tensei A",
       "description": "Edo Tensei Sandaime Raikage (S) is not pleased to be back among the living and forced to do battle. He does however have faith that the new generation of shinobi can defeat him and his peers.",
-      "place": 168,
+      "id": 168,
       "avatar": "https://i.imgur.com/Vjyr7a4.jpg",
       "skills": [
         {
@@ -10142,7 +10142,7 @@
       ]
     },
     {
-      "place": 169,
+      "id": 169,
       "name": "Edo Tensei Muu",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/864150357013168168/C1djCAb.png",
       "description": "Edo Tensei Nidaime Tsuchikage (S) has been revived against his will to do battle. He will take advantage of the situation to make sure that the Hidden Rock Village benefits from this war.",
@@ -10199,7 +10199,7 @@
     {
       "name": "Edo Tensei Gengetsu",
       "description": "Edo Tensei Nidaime Mizukage (S) has been resurrected against his will to do battle. He does not want to hurt anyone but he is interested in the potential of the new generation. He will test their limits with his own skill.",
-      "place": 170,
+      "id": 170,
       "avatar": "https://i.imgur.com/Q5hrurS.jpg",
       "skills": [
         {
@@ -10272,7 +10272,7 @@
     {
       "name": "Edo Tensei Deidara",
       "description": "Edo Tensei Deidara has been revived and is immediately sent out to battle. Fighting on the front lines is nothing new to this old soul.",
-      "place": 171,
+      "id": 171,
       "avatar": "https://i.imgur.com/T9o4ZEC.png",
       "skills": [
         {
@@ -10343,7 +10343,7 @@
     {
       "name": "Edo Tensei Sasori",
       "description": "Edo Tensei Sasori has been resurrected in the ageless body that he had always wanted during his life. He is sent out to the battlefield in Akatsuki's ambush squad.",
-      "place": 172,
+      "id": 172,
       "avatar": "https://i.imgur.com/SipOLvG.png",
       "skills": [
         {
@@ -10408,7 +10408,7 @@
     {
       "name": "Edo Tensei Kakuzu",
       "description": "Kakuzu was reincarnated through the Edo Tensei jutsu used by Kabuto alongside some other Akatsuki members to fight in the approaching war. He's being used without the control of his own body but not against his own will.",
-      "place": 173,
+      "id": 173,
       "avatar": "https://i.imgur.com/9zbZSRf.png",
       "skills": [
         {
@@ -10482,7 +10482,7 @@
     {
       "name": "Edo Tensei Nagato",
       "description": "Edo Tensei Nagato has been summoned to do battle. He is fully aware of the fact that he is being controlled again as he was while he was living.",
-      "place": 174,
+      "id": 174,
       "avatar": "https://i.imgur.com/h13Ecip.jpg",
       "skills": [
         {
@@ -10539,7 +10539,7 @@
       ]
     },
     {
-      "place": 175,
+      "id": 175,
       "name": "Edo Tensei Yugito",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/815703707306950726/kZRAtdx.png",
       "description": "Yugito was brought back to life by Kabuto during the Fourth Shinobi World War along with the other fallen jinchuuriki. She was made one of the new paths of Pain, working with Tobi.",
@@ -10610,7 +10610,7 @@
       ]
     },
     {
-      "place": 176,
+      "id": 176,
       "name": "Edo Tensei Hashirama (S)",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/864148458259349534/qICZQSg.png",
       "description": "Hashirama was brought back to life by Orochimaru during the Fourth Shinobi World War to help the Shinobi Alliance against the combined forces of Obito and Madara. He is willing to witness the new generation's full power and finally defeat his archenemy for good.",
@@ -10692,7 +10692,7 @@
     {
       "name": "Kyuubi Naruto (S)",
       "description": "Having gained complete control of all of the kyuubi's chakra Kyuubi Naruto (S) will be sure to rampage over every battlefield he comes across.",
-      "place": 177,
+      "id": 177,
       "avatar": "https://i.imgur.com/chHLHF2.png",
       "skills": [
         {
@@ -10760,7 +10760,7 @@
     {
       "name": "Commander Gaara",
       "description": "Gaara has been choosen to be the main commander of the Shinobi Alliance in the Fourth Shinobi World War. With such a big responsability in his hands, he is now ready to take the war to a defining point and defeat any enemy he faces.",
-      "place": 178,
+      "id": 178,
       "avatar": "https://i.imgur.com/G5NFC8u.png",
       "skills": [
         {
@@ -10819,7 +10819,7 @@
       ]
     },
     {
-      "place": 179,
+      "id": 179,
       "name": "Captain Kankuro",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/767054053648891904/rq1XBvx.png",
       "description": "During the Fourth Shinobi World War, Kankuro is placed in charge of the Surprise Attack Division. He is now able to use his common original puppets with a higher control, along with the new machines in his arsenal, the puppets of Sasori and his parents.",
@@ -10874,7 +10874,7 @@
       ]
     },
     {
-      "place": 180,
+      "id": 180,
       "name": "Captain Temari",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/754041933004800050/ctwkupL.png",
       "description": "When the war begins, Temari is placed in the Fourth Division. Although Gaara is officially in command of the division and Shikamaru is in Gaara's proxy, Temari is the one who leads the division in the battlefield as well as the Wind Style Formation commanded by her.",
@@ -10933,7 +10933,7 @@
       ]
     },
     {
-      "place": 181,
+      "id": 181,
       "name": "Samehada Bee",
       "avatar": "https://i.imgur.com/erAH860.png",
       "description": "After his encounter with Kisame, Killer Bee has became the owner of the legendary sword of the mist, Samehada. With it on his side, Bee is able to use his arsenal of swords in a more efficient way, and combo them with Samehada's ability to absorb chakra.",
@@ -10997,7 +10997,7 @@
       ]
     },
     {
-      "place": 182,
+      "id": 182,
       "name": "White Snake Kabuto",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/767053766208913458/Y5A86aX.png",
       "description": "After Orochimaru's death by Sasuke's hands, Kabuto got access to his master's chakra and has implanted it on his body, granting himself the ability of summoning and controlling snakes. In his new form, Kabuto allies himself with Tobi to wage war on the shinobi world.",
@@ -11076,7 +11076,7 @@
       ]
     },
     {
-      "place": 183,
+      "id": 183,
       "name": "Sennin Kabuto",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/796376383538200637/unknown.png",
       "description": "Due to the larger chakra reserves he gains from Orochimaru's remains,  Kabuto is able to learn senjutsu from the White Snake Sage at the Ryuchi Cave. This allows him to enter Sage Mode, which he can use indefinitely due to his research of Juugo's passively ability to constantly absorb natural energy.",
@@ -11198,7 +11198,7 @@
     {
       "name": "Shinobi War Tobi",
       "description": "The Fourth Shinobi World War its beginning was declared by Tobi when the five Kage and the leader of the Land of Iron unanimously refused to surrender the Eight and Nine-Tails for his Eye of the Moon Plan.",
-      "place": 184,
+      "id": 184,
       "avatar": "https://i.imgur.com/m2tZfk2.png",
       "skills": [
         {
@@ -11259,7 +11259,7 @@
       ]
     },
     {
-      "place": 185,
+      "id": 185,
       "name": "Uchiha Obito (S)",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/826801995095736382/xgzc3ER.png",
       "description": "Following the destruction of his mask during the Fourth Shinobi World War, Tobi was revealed to be Uchiha Obito, the one everyone thought that was dead long ago. He allies himself with the reincarnated version of Madara in order to make the Infinite Tsukuyomi work.",
@@ -11317,7 +11317,7 @@
       ]
     },
     {
-      "place": 186,
+      "id": 186,
       "name": "Guruguru",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/876558798343536671/yRljWVz.png",
       "description": "Guruguru is a version of Zetsu, whose nickname was given by Obito due to the swirl pattern of his face. He is the one who helps Obito against the forces of the Mist Village shinobi who killed Rin. During the Fourth Shinobi World War, he takes over Yamato's body to fight against the Shinobi Alliance.",
@@ -11409,7 +11409,7 @@
       ]
     },
     {
-      "place": 187,
+      "id": 187,
       "name": "Regenerated Madara",
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/892545981797781514/5MRkM6H.png",
       "description": "After Black Zetsu takes over Obito's body and uses Samsara of Heavenly Life, Madara is brought back to life. Without the limits from the Impure World Reincarnation technique, he gains new abilities that allow him to disrupt his enemies and nullify their abilities.",
@@ -11488,7 +11488,7 @@
       ]
     },
     {
-      "place": 188,
+      "id": 188,
       "name": "Juubi",
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/892546308836036669/bt144lT.png",
       "description": "Juubi, also known as the Ten-Tails, is the combined form of Ootsutsuki Kaguya and the God Tree, created to reclaim the chakra inherited by her children, Hagoromo and Hamura. Centuries after its creation, its revival became the objective of Uchiha Madara and Obito, who both sought to become the beast's jinchuuriki in order to further their plans.",
@@ -11563,7 +11563,7 @@
       ]
     },
     {
-      "place": 189,
+      "id": 189,
       "name": "Rikudou Obito",
       "avatar": "https://i.imgur.com/geAD56R.png",
       "description": "After sealing the Ten-Tails into his body, Obito becomes its jinchuuriki and one of the biggest threats the world has ever seen. He will do everything in his power to make the Infinite Tsukuyomi work, now that he has an almost unstoppable offense and an indestructible defense.",
@@ -11644,7 +11644,7 @@
       ]
     },
     {
-      "place": 190,
+      "id": 190,
       "name": "Rikudou Madara",
       "avatar": "https://i.imgur.com/rSgGreO.png",
       "description": "With nobody left to oppose him, Madara seals the Ten-Tails into himself once its resurrection is complete. By becoming its jinchuuriki, Madara gains a tremendous amount of power and becomes one of the deadliest threats the world has ever witnessed. In power of two Rinnegan, Madara is almost untouchable through the access of the world known as Limbo.",
@@ -11714,7 +11714,7 @@
       ]
     },
     {
-      "place": 191,
+      "id": 191,
       "name": "Eighth Gate Gai",
       "avatar": "https://i.imgur.com/7wKKGTv.png",
       "description": "Taught by his father at a young age, Gai is able to utilise any and all of the Eight Inner Gates. During the Fourth Shinobi World War, Gai decides to open the Eighth Gate to stop Madara in his jinchuuriki form, knowing that it would eventually cause his death.",
@@ -11791,7 +11791,7 @@
       ]
     },
     {
-      "place": 192,
+      "id": 192,
       "name": "Dual Mangekyou Kakashi",
       "avatar": "https://i.imgur.com/ALjdBg1.png",
       "description": "As Obito sacrifices himself for the sake of Team 7 in the battle against Kaguya, Kakashi gets a last gift from him: his second Mangekyou Sharingan. In the possession of both eyes, Kakashi is able to connect his abilities with Obito's as well as release the perfect form of Susanoo.",
@@ -11861,7 +11861,7 @@
       ]
     },
     {
-      "place": 193,
+      "id": 193,
       "name": "Rehabilitated Obito",
       "avatar": "https://i.imgur.com/es04grO.png",
       "description": "After redeeming himself, Obito decides to help Team 7 in the final battle against Kaguya using all the power from his doujutsu. Obito is ready to do whatever is needed to save the world he once wanted to destroy - even sacrifice himself for the sake of others.",
@@ -11925,7 +11925,7 @@
       ]
     },
     {
-      "place": 194,
+      "id": 194,
       "name": "Ootsutsuki Kaguya",
       "avatar": "https://i.imgur.com/cAEs3kh.png",
       "description": "Kaguya was a member of the Ootsutsuki clan and the matriarch of a branch family. Long before the founding of the hidden villages, during an era of endless war, Kaguya consumed the fruit of the God Tree and became the first wielder of chakra on Earth, before later merging with the tree to become the Ten-Tails.",
@@ -12051,7 +12051,7 @@
       ]
     },
     {
-      "place": 195,
+      "id": 195,
       "name": "Ootsutsuki Hamura",
       "avatar": "https://i.imgur.com/R26vlhL.png",
       "description": "Hamura was the son of Princess Kaguya‎‎, the fraternal twin brother of Hagoromo; both of whom were the first people born with the ability to wield chakra. Hamura was the ancestor of the Hyuuga clan and the founder of the shinobi of the Moon.",
@@ -12121,7 +12121,7 @@
       ]
     },
     {
-      "place": 196,
+      "id": 196,
       "name": "Ootsutsuki Hagoromo",
       "avatar": "https://i.imgur.com/1HK2MZN.png",
       "description": "Hagoromo, known to Earth's population at large as the Sage of Six Paths, was a legendary godlike figure who is regarded as the ancestor of shinobi, for his act of founding ninshuu which led to the creation of the ninja world. He was the son of Princess Kaguya‎‎ and alongside his fraternal twin brother, Hamura, were the first to be born with the same powerful chakra as their mother.",
@@ -12195,7 +12195,7 @@
       ]
     },
     {
-      "place": 197,
+      "id": 197,
       "name": "Ootsutsuki Toneri",
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/864149977487900672/CrRgooQ.png",
       "description": "Toneri is a descendant of Ootsutsuki Hamura and the sole survivor of Ootsutsuki clan's branch family on the moon. He intends to destroy Rikudou Sennin's world by launching the moon itself on Earth.",
@@ -12256,7 +12256,7 @@
     {
       "name": "Hyuuga Hanabi",
       "description": "The younger sister of Hinata, Hanabi is a Hyuuga clan member who trains endlessly to prove herself. Hanabi's skills surpass her elder sister's, and while lacking in strength, Hanabi makes up for it with her tenacity and speed.",
-      "place": 21.5,
+      "id": 21.5,
       "avatar": "https://i.imgur.com/K6tuNhW.jpg",
       "skills": [
         {
@@ -12311,7 +12311,7 @@
     {
       "name": "Anbu Kakashi",
       "description": "After everything that went down with his teammates, Kakashi decided to join Anbu. He quickly became one of the strongest members of the organization and even a captain of it.",
-      "place": 22.1,
+      "id": 22.1,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/740746155213979663/unknown.png",
       "skills": [
         {
@@ -12368,7 +12368,7 @@
       ]
     },
     {
-      "place": 22.2,
+      "id": 22.2,
       "name": "Tenzou",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/847100835963994153/lkZT91h.png",
       "description": "Tenzou is one of the sixty children that were abducted by Orochimaru to be his test subjects. He was injected with the First Hokage's DNA in the hopes that he could replicate the First's ability to use Wood Release. Tenzou ended up being taken by Danzo, then he was recruited into the Anbu's Root division.",
@@ -12426,7 +12426,7 @@
       ]
     },
     {
-      "place": 22.3,
+      "id": 22.3,
       "name": "Anbu Itachi",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/847101131464245268/IcFJa4I.png",
       "description": "Itachi joined Konoha's Anbu from a very young age, following orders directly from the Hokage and the village's elders. What he didn't know is that something would be requested to him later, what would change his life and his clan's forever.",
@@ -12509,7 +12509,7 @@
       ]
     },
     {
-      "place": 22.4,
+      "id": 22.4,
       "name": "Corrupted Obito",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/876557669069094942/pL1Y8bX.png",
       "description": "After spending some time with Madara, Obito decides to get back to his teammates with the help of Guruguru's regenerative body. However, a dark path for both Kakashi and Rin awaits their old friend, a path that would awake a disrupture on his mind and dreams.",
@@ -12571,7 +12571,7 @@
       ]
     },
     {
-      "place": 26.5,
+      "id": 26.5,
       "name": "Shiore Orochimaru",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/762377028346708029/PAE9VK6.png",
       "description": "Shiore was a genin from the Hidden Grass Village that was killed by Orochimaru before the Chuunin Exams. He had his identity stolen by him afterwards.",
@@ -12630,7 +12630,7 @@
       ]
     },
     {
-      "place": 53.5,
+      "id": 53.5,
       "name": "Masked Man",
       "avatar": "https://i.imgur.com/qqCAwXB.png",
       "description": "No one knows anything about this man in the yellow mask, except that he was responsible for the attack to Konoha by Kurama's claws that resulted on the death of the Yondaime Hokage and his wife.",
@@ -12694,7 +12694,7 @@
     {
       "name": "Cursed Seal Lv1 Sasuke",
       "description": "Sasuke is pushed into his maximum during the Chuunin Exams and ends awakening his Cursed Seal to fight the Sound Genin and save Sakura. Sasuke is not in full control of the seal yet, but his anger and power were already raised a lot.",
-      "place": 56.5,
+      "id": 56.5,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/746372681678454895/fp.png",
       "skills": [
         {
@@ -12753,7 +12753,7 @@
     {
       "name": "Teuchi",
       "description": "Teuchi is a citizen of the Hidden Leaf Village and the owner of Ramen Ichiraku. As a teenager, Teuchi devoted his life to making ramen, what undoubtedly makes him the most important character from the Naruto franchise.",
-      "place": 62.5,
+      "id": 62.5,
       "avatar": "https://i.imgur.com/60SNN4o.png",
       "skills": [
         {
@@ -12806,7 +12806,7 @@
     {
       "name": "Kazahana Doto",
       "description": "Dotō began the revolt in the Land of Snow whilst searching for a treasure, which resulted in him killing his brother, Sōsetsu Kazahana who was the daimyō at the time. His niece, Koyuki Kazahana, fled from the Land of Snow, and became an actress named Yukie Fujikaze.",
-      "place": 62.6,
+      "id": 62.6,
       "avatar": "https://i.imgur.com/AgoNQtr.png",
       "skills": [
         {
@@ -12862,7 +12862,7 @@
       ]
     },
     {
-      "place": 62.7,
+      "id": 62.7,
       "name": "Temujin",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/843073490843598879/ruPo6HS.png",
       "description": "Temujin is a young man from an unknown continent. Born as the heir of the main branch of his clan, Temujin has the ability to create and seal away the Stone of Gelel. Temujin is extremely loyal to Haido; wishing to be of use to him, Temujin trained hard to become a powerful fighter.",
@@ -12932,7 +12932,7 @@
     {
       "name": "Sarutobi Konohamaru",
       "description": "The grandson of the 3rd Hokage, Hiruzen, Konohamaru has spent his youth working hard to accomplish his dream of one day following under his grandfather's steps. With his hard work, Konohamaru has learned actual abilities that flow around his agility and speed.",
-      "place": 75.5,
+      "id": 75.5,
       "avatar": "https://i.imgur.com/HRxoGfU.jpg",
       "skills": [
         {
@@ -12987,7 +12987,7 @@
     {
       "name": "Ebisu",
       "description": "Ebisu is Konohamaru's teacher and protector. Although he's a pervert, he's also very disciplined and puts his life on the life to save his students.",
-      "place": 79.2,
+      "id": 79.2,
       "avatar": "https://i.imgur.com/wzH6r70.png",
       "skills": [
         {
@@ -13045,7 +13045,7 @@
     {
       "name": "Shizune (S)",
       "description": "Shizune has grown up to be an experienced medical-nin as well as the Godaime Hokage's right hand. She is now a great kunoichi not only at healing skills but also at sealing abilities.",
-      "place": 79.5,
+      "id": 79.5,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/740748198284361859/unknown.png",
       "skills": [
         {
@@ -13117,7 +13117,7 @@
     {
       "name": "Mitarashi Anko (S)",
       "description": "Anko has grown over the years as a special jounin of the Hidden Leaf Village. During the Fourth Shinobi World War, she is put in command of the Reconnaissance Party, set to track Kabuto and find out what he is planning on doing.",
-      "place": 79.7,
+      "id": 79.7,
       "avatar": "https://i.imgur.com/el2cZ1u.png",
       "skills": [
         {
@@ -13177,7 +13177,7 @@
     {
       "name": "Shiranui Genma",
       "description": "Genma is a special jounin of the Hidden Leaf Village and an elite bodyguard to the Hokage. After Hayate's death, he became the Chuunin Exams proctor.",
-      "place": 81.3,
+      "id": 81.3,
       "avatar": "https://i.imgur.com/9mlV2dq.png",
       "skills": [
         {
@@ -13237,7 +13237,7 @@
     {
       "name": "Namiashi Raidou",
       "description": "Raidou is a special jounin of the Hidden Leaf Village and an elite bodyguard to the Hokage. He is skilled in kenjutsu, using a special sword of his own called 'Kokutou'.",
-      "place": 81.6,
+      "id": 81.6,
       "avatar": "https://i.imgur.com/oeXLRyU.png",
       "skills": [
         {
@@ -13297,7 +13297,7 @@
       ]
     },
     {
-      "place": 82.3,
+      "id": 82.3,
       "name": "Aburame Shibi",
       "avatar": "https://i.imgur.com/C5285xc.png",
       "description": "Shibi is a jounin of the Hidden Leaf Village, the head of the Aburame clan and the father of Shino. Just like his son, Shibi is a calm and calculated man who prefers to take down his enemies by incapacitating them, using his numerous chakra draining insects.",
@@ -13362,7 +13362,7 @@
     {
       "name": "Hyuuga Hiashi",
       "description": "Head of the Hyuuga clan, and father to both Hinata and Hanabi, Hiashi is a strict, but caring man who would do anything for his clan. In battle, there is no equal when it comes to mastering the Hyuuga clan abilities.",
-      "place": 82.6,
+      "id": 82.6,
       "avatar": "https://i.imgur.com/s5cIHGE.jpg",
       "skills": [
         {
@@ -13421,7 +13421,7 @@
       ]
     },
     {
-      "place": 82.9,
+      "id": 82.9,
       "name": "Nara Shikaku",
       "avatar": "https://i.imgur.com/1mP2frJ.png",
       "description": "The father of Nara Shikamaru, and the head of the Nara clan, Shikaku is a cool-headed Jounin of Konoha who will go to any lengths to protect his friends and family. In battle, Shikaku is merciless, combining his impressive shadow imitation skills with his unparalleled intellect to grab victory for his team.",
@@ -13490,7 +13490,7 @@
       ]
     },
     {
-      "place": 83.5,
+      "id": 83.5,
       "name": "Yamanaka Inoichi",
       "avatar": "https://i.imgur.com/HEj7mM8.jpg",
       "description": "A Konoha jounin, a member of the Yamanaka clan, and the father of Ino, Inoichi is a very calm, analytical man who can solve nearly any dilemma. While fighting, Inoichi much prefers targeting an enemy's mind, tearing it apart while remaining unscratched himself.",
@@ -13551,7 +13551,7 @@
       ]
     },
     {
-      "place": 84.3,
+      "id": 84.3,
       "name": "Zaji",
       "avatar": "https://i.imgur.com/cIITVlZ.png",
       "description": "Zaji is a Konoha Chuunin, and one who constantly boasts about his abilities, regardless of it is warranted or not. Zaji is a sensor, using his abilities to sense out enemies and prevent them attacking.",
@@ -13608,7 +13608,7 @@
       ]
     },
     {
-      "place": 84.4,
+      "id": 84.4,
       "name": "Nara Ensui",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/876557925500485712/veU3W4q.png",
       "description": "Ensui is a shinobi from the Hidden Leaf Village's Nara clan. Ensui is very skilled with his clan's secret techniques, able to use the Shadow Imitation Shadow Bind technique to attach their shadow to a target to extend its range and catch its actual target.",
@@ -13666,7 +13666,7 @@
       ]
     },
     {
-      "place": 84.5,
+      "id": 84.5,
       "name": "Aburame Muta",
       "avatar": "https://i.imgur.com/hoe6SGT.png",
       "description": "Muta is a special jounin of the Hidden Leaf Village and a member of the Aburame clan. As a skilled member of his clan, Muta is part of the Shinobi Alliance's Infiltration and Reconnaissance Party.",
@@ -13725,7 +13725,7 @@
       ]
     },
     {
-      "place": 84.6,
+      "id": 84.6,
       "name": "Uzuki Yugao",
       "avatar": "https://i.imgur.com/gHipAIK.png",
       "description": "A member of Konoha's Anbu faction; Yugao is a hard working kunoichi who puts all her might into anything she does. In combat, Yugao mixes sword, speed, and jutsu for some devastating results.",
@@ -13786,7 +13786,7 @@
       "name": "Uchiha Izuna",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/754042088911274126/gFeToQG.png",
       "description": "Izuna is a member of the Hidden Leaf Village's Uchiha Clan and the younger brother of Uchiha Madara. He and his brother were renowned as the clan's two strongest members in their lifetime.",
-      "place": 95.3,
+      "id": 95.3,
       "skills": [
         {
           "skillName": "Sharingan Activation",
@@ -13841,7 +13841,7 @@
       ]
     },
     {
-      "place": 95.6,
+      "id": 95.6,
       "name": "Uchiha Madara",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/772984942695022592/large.png",
       "description": "The once leader of the Uchiha clan during the founding of Konoha who unfortunately disagreed with Konoha's kage on how to achieve peace. Madara was one of the few ninjas capable of matching Hashirama's power, with the use of his Mangekyou and Susanoo.",
@@ -13912,7 +13912,7 @@
       ]
     },
     {
-      "place": 95.9,
+      "id": 95.9,
       "name": "Uchiha Shisui",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/772984865796390932/large.png",
       "description": "A member of the prestigious Uchiha clan, and the best friend of Uchiha Itachi; Shisui is a highly trained ninja that is utterly devoted to Konoha. Shisui is one of the few known ninjas capable of using one the most powerful genjutsu: Koto Amatsukami.",
@@ -13989,7 +13989,7 @@
       ]
     },
     {
-      "place": 96.1,
+      "id": 96.1,
       "name": "Maito Dai",
       "avatar": "https://i.imgur.com/aXhfo2H.png",
       "description": "Maito Dai is a shinobi of the Hidden Leaf Village and the father of Gai. Dai spent his entire career as a genin, causing many to look down upon him and earned him the epithet of the 'Eternal Genin'. Despite this, after twenty years of tireless training, Dai perfected how to use all Eight Gates.",
@@ -14050,7 +14050,7 @@
     {
       "name": "Maki",
       "description": "Maki is a kunoichi of the Hidden Sand Village and the student of Pakura. Maki is also a member of the Ninja Alliance Sealing Squad.",
-      "place": 96.2,
+      "id": 96.2,
       "avatar": "https://i.imgur.com/dwOtxbP.jpg",
       "skills": [
         {
@@ -14103,7 +14103,7 @@
       "mission": ["Maki of the Sand", "Win 6 battles in a row."]
     },
     {
-      "place": 96.5,
+      "id": 96.5,
       "name": "Chiyo",
       "description": "The grandmother of Sasori and elder ninja of the Sand Village, Chiyo is a well known and accomplished puppet master and builder.",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/860272800584957962/gLyg0A7.png",
@@ -14189,7 +14189,7 @@
     {
       "name": "Ruka",
       "description": "Ruka is a kunoichi from the Hidden Mist Village and part of the Third Division of the Shinobi Alliance. As a medical-nin, she has great control over her chakra and is capable of using Water Release techniques.",
-      "place": 100.1,
+      "id": 100.1,
       "avatar": "https://i.imgur.com/nHjc686.png",
       "skills": [
         {
@@ -14262,7 +14262,7 @@
     {
       "name": "Ao",
       "description": "Ao is a hunter-nin of the Hidden Mist Village and a skilled sensor. Ao is a veteran shinobi who has been in many battles, one of his spoils of war is the byakugan he possesses.",
-      "place": 100.2,
+      "id": 100.2,
       "avatar": "https://i.imgur.com/RZug6dI.png",
       "skills": [
         {
@@ -14322,7 +14322,7 @@
     {
       "name": "Chojuro",
       "description": "Chojuro confidence is building as the war rages one. The longer it lasts the stronger Chojuro becomes.",
-      "place": 100.4,
+      "id": 100.4,
       "avatar": "https://i.imgur.com/CHVxzu7.jpg",
       "skills": [
         {
@@ -14380,7 +14380,7 @@
     {
       "name": "Terumi Mei",
       "description": "Terumi Mei is the Fifth Mizukage of Kirigakure. After the dreadful reign of Yagura Karatachi ended, she became Mizukage and worked tirelessly to reform internal policies and recreate diplomatic relations with other villages.",
-      "place": 100.6,
+      "id": 100.6,
       "avatar": "https://i.imgur.com/xELER17.png",
       "skills": [
         {
@@ -14443,7 +14443,7 @@
       ]
     },
     {
-      "place": 103.5,
+      "id": 103.5,
       "name": "Monga",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/847101836971474965/G7aYo3H.png",
       "description": "Monga is a shinobi from the Hidden Rock Village, member of the Shinobi Alliance's Third Division. Monga is skilled in the field of Earth Release techniques. He is capable of using earth walls of varying sizes for defense as well as trapping an opponent.",
@@ -14504,7 +14504,7 @@
     {
       "name": "Karui",
       "description": "Karui is a kunoichi of the Hidden Cloud Village and a member of Team Samui. Karui is a capable kunoichi with great teamwork skills, able to coordinate attacks with her partner Omoi without either needing to communicate.",
-      "place": 106.5,
+      "id": 106.5,
       "avatar": "https://i.imgur.com/cEeFdHz.png",
       "skills": [
         {
@@ -14571,7 +14571,7 @@
     {
       "name": "Darui",
       "description": "Darui is a jounin of the Hidden Cloud Village and the right hand of the Yondaime Raikage. Despite his appearance Darui is a formidable shinobi.",
-      "place": 108.5,
+      "id": 108.5,
       "avatar": "https://i.imgur.com/fM6f3X7.png",
       "skills": [
         {
@@ -14630,7 +14630,7 @@
     {
       "name": "Mabui",
       "description": "Mabui is a kunoichi of the Hidden Cloud Village and the Fourth Raikage's assistant. While very calm and analytical, Mabui possesses an unique technique that allows her to transfer objects from a place to another, in a matter of seconds.",
-      "place": 109.1,
+      "id": 109.1,
       "avatar": "https://i.imgur.com/tqZfVJ3.png",
       "skills": [
         {
@@ -14679,7 +14679,7 @@
     {
       "name": "Ay",
       "description": "Ay is the Fourth Raikage of Kumogakure. Ay is generally characterised as stern, outspoken and decisive. After becoming Raikage, Ay grew more humble as he referred to himself as 'washi', a more humble term used by old men, instead of 'ore', a prideful way of saying 'I' or 'me'.",
-      "place": 109.2,
+      "id": 109.2,
       "avatar": "https://i.imgur.com/LToZAR5.png",
       "skills": [
         {
@@ -14754,7 +14754,7 @@
     {
       "name": "Mifune",
       "description": "Mifune is a samurai warrior and the General of the Land of Iron. During the Fourth Shinobi World War, Mifune is placed in charge of the Fifth Divison, also known as the Special Battle Division.",
-      "place": 109.5,
+      "id": 109.5,
       "avatar": "https://i.imgur.com/hvh4Btj.png",
       "skills": [
         {
@@ -14820,7 +14820,7 @@
       ]
     },
     {
-      "place": 109.7,
+      "id": 109.7,
       "name": "Hanzo of the Salamander",
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/892545355982446662/JhxwL02.png",
       "description": "Hanzo, feared as Hanzo of the Salamander, was a legendary shinobi and the leader of the Hidden Rain Village. During the Second Shinobi World War, he gave Jiraiya, Orochimaru and Tsunade the \"Hidden Leaf 's Sannin\" title.",
@@ -14891,7 +14891,7 @@
       ]
     },
     {
-      "place": 110.5,
+      "id": 110.5,
       "name": "Karatachi Yagura",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/767053950477795338/ctvvbsy.png",
       "description": "Karatachi Yagura is the Jinchuuriki of the Three Tails, Isobu. He used to be the Fourth Mizukage of the Hidden Mist Village and is chiefly remembered for a bloody, despotic reign that contributed to the Hidden Mist being known as the 'Bloody Mist '.",
@@ -14949,7 +14949,7 @@
       ]
     },
     {
-      "place": 111.5,
+      "id": 111.5,
       "name": "Han",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/796377340162736128/unknown.png",
       "description": "Han is a shinobi of the Hidden Rock Village and the jinchuuriki of the Five-Tails, Kokuo. Han is a very capable close-range fighter, being able to destroy wide areas around him, while being protected by his armor and Kokuo's chakra.",
@@ -15039,7 +15039,7 @@
     {
       "name": "Fuu",
       "description": "Fuu is a kunoichi from Takigakure and the jinchuuriki of the Seven-Tails, Choumei, Fuu is a sweet-hearted young girl who is always looking for new friends.",
-      "place": 112.5,
+      "id": 112.5,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/740747913344581733/unknown.png",
       "skills": [
         {
@@ -15108,7 +15108,7 @@
       ]
     },
     {
-      "place": 119.5,
+      "id": 119.5,
       "name": "Cursed Seal Sasuke (S)",
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/892545702587154432/84oElEF.png",
       "description": "After spending the past year training under Orochimaru's watch, Sasuke has gained a tremendous amount of power, being able to use strong cursed techniques to hinder his enemies. His cursed seal has evolved to its peak, allowing Sasuke to control it precisely and maintain it for a long time.",
@@ -15184,7 +15184,7 @@
       ]
     },
     {
-      "place": 123.1,
+      "id": 123.1,
       "name": "White Snake Orochimaru",
       "avatar": "https://media.discordapp.net/attachments/596516296238301189/785596135749582898/large.png",
       "description": "Like a snake, Orochimaru has shed his skin, revealing his true form; an enormous white snake. As the White Snake, Orochimaru is able to regenerate without end, steal bodies and even revive himself as a dragon-like god.",
@@ -15287,7 +15287,7 @@
     {
       "name": "Fukasaku and Shima",
       "description": "Fukasaku and Shima are known as the two great sage toads of Mount Myoboku. They taught both Jiraiya and Naruto sage jutsu and are each skilled in elemental techniques as well as genjutsu techniques.",
-      "place": 123.2,
+      "id": 123.2,
       "avatar": "https://i.imgur.com/922JbSX.jpg",
       "skills": [
         {
@@ -15347,7 +15347,7 @@
     {
       "name": "Sennin Jiraiya",
       "description": "Sennin Jiraiya uses sage chakra to improve his speed, strength, and skills. The only downfall is that it alters his appearance similar to that of a toad and makes him unappealing to women, which makes it a last resort for the pervy sage. Original Design: Ider",
-      "place": 123.3,
+      "id": 123.3,
       "avatar": "https://i.imgur.com/iZIMyUh.jpg",
       "skills": [
         {
@@ -15404,7 +15404,7 @@
       ]
     },
     {
-      "place": 123.4,
+      "id": 123.4,
       "name": "Sennin Naruto",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/843071669052112906/luvxukw.png",
       "description": "Sennin Naruto has trained on Mount Myoboku with Fukasaku and Shima. Naruto has become one of the most powerful individuals in the ninja world.",
@@ -15490,7 +15490,7 @@
     {
       "name": "Three Tails Kyuubi Naruto",
       "description": "The Team 7 faces Orochimaru in the Tenchi Bridge and Naruto enrages as he starts to think about Sasuke's dark path. With three tails released, Naruto has an explosive chakra and no control over his own actions.",
-      "place": 123.5,
+      "id": 123.5,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/746373202699092068/7fu7VwyukhwMQabyDOKgkQ7QcvDfkHFU2PGdKIuFwckB1OsGbUpnYHj7hZ1h8pE7DFsevGIQERJmUBOXZxBgZ2JQ5gbN1PxmeP31.png",
       "skills": [
         {
@@ -15554,7 +15554,7 @@
     {
       "name": "Four Tails Kyuubi Naruto",
       "description": "Naruto, after giving into his rage and manifesting a fourth tail ceases to be himself. In this state Naruto(s) becomes a mindless being of rage and destruction but the price is his own life.",
-      "place": 123.6,
+      "id": 123.6,
       "avatar": "https://i.imgur.com/jAg1CYw.jpg",
       "skills": [
         {
@@ -15623,7 +15623,7 @@
       ]
     },
     {
-      "place": 123.7,
+      "id": 123.7,
       "name": "Six Tails Kyuubi Naruto",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/759177673108357130/1IcVkDR.png",
       "description": "During his battle against Pain, Naruto lost control over his Kyuubi chakra after being subdued and seeing Hinata get extremely hurt. With six tails released, Naruto's physical power and destructive rage is insanely raised as the battle goes to its climax.",
@@ -15686,7 +15686,7 @@
     {
       "name": "Sora",
       "description": "Sora is a monk in training from the Land of Fire's Fire Temple. He is a pseudo-jinchuuriki of Kurama, whose chakra was implanted in Sora's body by his own father, Kazuma.",
-      "place": 124.2,
+      "id": 124.2,
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/746375708372369428/0AkDQgk3DwAAAAAElFTkSuQmCC.png",
       "skills": [
         {
@@ -15743,7 +15743,7 @@
     {
       "name": "Guren",
       "description": "Guren is a kunoichi from Otogakure and the leader of a group of Orochimaru's subordinates. She possesses the unique Crystal Release Kekkei Genkai.",
-      "place": 124.3,
+      "id": 124.3,
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/740747340834668574/unknown.png",
       "skills": [
         {
@@ -15820,7 +15820,7 @@
       ]
     },
     {
-      "place": 124.5,
+      "id": 124.5,
       "name": "Mecha Naruto",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/756957748742062120/ypI25z1.png",
       "description": "Mecha Naruto is a mechanized replica of Uzumaki Naruto; it is a mindless savage, attacking everything in its path. As a machine, he can manipulate his body in a variety of manners, even assuming a three-tailed form of its own.",
@@ -15902,7 +15902,7 @@
       ]
     },
     {
-      "place": 124.6,
+      "id": 124.6,
       "name": "Satori",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/879425833880678400/unknown.png",
       "description": "Satori is a demonic bird-like creature that has existed since the time of Rikudou Sennin. It's a puppet of the Box of Ultimate Bliss that can shoot its feathers and giant spheres at high speeds which have powerful piercing and explosive power.",
@@ -15959,7 +15959,7 @@
     {
       "name": "Itachi Body Double",
       "description": "By using one of Pain's techniques a Sand Nin spy for Akatsuki is changed to look like Itachi. The body double is controlled by Itachi but only has a third of his chakra.",
-      "place": 125.5,
+      "id": 125.5,
       "avatar": "https://i.imgur.com/4vZZX4D.png",
       "skills": [
         {
@@ -16022,7 +16022,7 @@
       ]
     },
     {
-      "place": 126.5,
+      "id": 126.5,
       "name": "Hiruko Sasori",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/767053555545931806/5ugKFzE.png",
       "description": "Hiruko is a puppet used by the Akatsuki shinobi, Sasori. Serving as a 'puppet armor ', it allowed Sasori to hide inside of it. Hiruko is a human puppet made from the corpse of a renowned shinobi - this puppet is also Sasori's favorite.",
@@ -16112,7 +16112,7 @@
     {
       "name": "Puppet Sasori",
       "description": "Sasori's true form is a puppet body with a living core attached to it. In this form, he can use weapons like a flamethrower and water jets, while still controling a hundred puppets.",
-      "place": 127.5,
+      "id": 127.5,
       "avatar": "https://i.imgur.com/uW1qXI2.png",
       "skills": [
         {
@@ -16187,7 +16187,7 @@
       ]
     },
     {
-      "place": 129.5,
+      "id": 129.5,
       "name": "True Form Kakuzu",
       "avatar": "https://i.imgur.com/bOJpQbs.png",
       "description": "Kakuzu's real body is made of rag and when he releases it, his offensive power is increased by a huge amount. In this form, Kakuzu appears to be a monster who will pierce everything in its path.",
@@ -16260,7 +16260,7 @@
     {
       "name": "Biwa Juuzou",
       "description": "Juuzou was a jounin of the Hidden Mist Village and one of the Seven Swordsmen of the Mist. Previous partner of Itachi in Akatsuki, Juuzou wields the Executioner's Blade, that can regenerate from the iron harvested from its victim's blood.",
-      "place": 131.2,
+      "id": 131.2,
       "avatar": "https://i.imgur.com/HVexrXG.png",
       "skills": [
         {
@@ -16341,7 +16341,7 @@
       ]
     },
     {
-      "place": 131.5,
+      "id": 131.5,
       "name": "Yahiko",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/876558164559007794/7dhUZ1k.png",
       "description": "Yahiko was a shinobi from the Hidden Rain Village and the leader of the original Akatsuki organization. Alongside his fellow war orphans, Nagato and Konan, he founded and led Akatsuki in an attempt to bring piece.",
@@ -16421,7 +16421,7 @@
       ]
     },
     {
-      "place": 135.5,
+      "id": 135.5,
       "name": "Female Animal Path Pain",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/754042231983308981/KhEZHv8.png",
       "description": "During his fight against Jiraiya, Nagato lost the Animal Path of Pain. He needed another body to recreate it and found it on a girl from the Hidden Rain Village named Ajisai.",
@@ -16482,7 +16482,7 @@
       ]
     },
     {
-      "place": 141.5,
+      "id": 141.5,
       "name": "Black Zetsu",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/826800522441785384/BiOMGJV.png",
       "description": "Black Zetsu is the physical manifestation of Ootsutsuki Kaguya's will. To further its plans, it posed as Uchiha Madara's manifested will and then partnered with White Zetsu to become the Akatsuki member known simply as Zetsu.",
@@ -16544,7 +16544,7 @@
     {
       "name": "Akatsuki Sasuke",
       "description": "After his fight against Itachi, Sasuke decides to take Tobi's advice and enter Akatsuki in order to get help to destroy the Hidden Leaf Village. In exchange, he will hunt the remaining bijuus along with his Taka teammaters.",
-      "place": 142.5,
+      "id": 142.5,
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/746438436352819210/AYeMp9eH5mLuAAAAAElFTkSuQmCC.png",
       "skills": [
         {
@@ -16601,7 +16601,7 @@
       ]
     },
     {
-      "place": 143.3,
+      "id": 143.3,
       "name": "Edo Tensei Dan",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/785505933106610196/unknown.png",
       "description": "Kato Dan is the former lover of Tsunade and also Shizune's uncle. He was reincarnated by Kabuto during the Fourth Shinobi World War, wherein he would be put to use his physical skills and his own special techniques against those of his village.",
@@ -16669,7 +16669,7 @@
       ]
     },
     {
-      "place": 143.4,
+      "id": 143.4,
       "name": "Edo Tensei Hizashi",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/796376978055495710/unknown.png",
       "description": "Hizashi is a member of a Hyuuga Clan's branch house, Hiashi's twin brother and Neji's father. At some point in Hizashi's life, he was branded with the clan's curse seal that would ensure his lifelong service to the main branch and that would seal his Byakugan when he died. He was reincarnated by Yakushi Kabuto during the Fourth Shinobi World War.",
@@ -16730,7 +16730,7 @@
       ]
     },
     {
-      "place": 143.6,
+      "id": 143.6,
       "name": "Edo Tensei Shin",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/847102106011303966/2TmQNP5.png",
       "description": "Shin is an orphan from the Hidden Leaf Village who was recruited into the Root Division of the village's Anbu and then became Sai's adoptive brother. Although carrying a disease, Shin was very capable in battle. He was reincarnated by Kabuto during the Fourth Shinobi World War.",
@@ -16803,7 +16803,7 @@
       ]
     },
     {
-      "place": 143.8,
+      "id": 143.8,
       "name": "Edo Tensei Hayate",
       "avatar": "https://media.discordapp.net/attachments/673708286306025494/756967177562620024/unknown.png",
       "description": "During the Fourth Shinobi World War, Hayate was brought back to life by Yakushi Kabuto. Hayate faces his former lover, Yugao, as he is controlled against his will and is obligated to fight her.",
@@ -16873,7 +16873,7 @@
       ]
     },
     {
-      "place": 145.5,
+      "id": 145.5,
       "name": "Edo Tensei Kyuubi Kinkaku",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/796380224094863380/unknown.png",
       "description": "Kinkaku possesses chakra traces of the Nine-Tais mixed in due to him and his brother being swallowed and regurgitated by the Nine-Tails after surviving two weeks inside its stomach by eating some of its chakra-imbued flash.",
@@ -16934,7 +16934,7 @@
       ]
     },
     {
-      "place": 153.5,
+      "id": 153.5,
       "name": "Edo Tensei Chen",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/759177904764223568/oKx1fps.png",
       "description": "Chen was a jounin of the Hidden Leaf Village and a legendary taijutsu master. He was reincarnated by Kabuto to fight in the Fourth Shinobi World War, wherein he faced Rock Lee, a ninja who reminded him of a former student he once had.",
@@ -16993,7 +16993,7 @@
       ]
     },
     {
-      "place": 153.8,
+      "id": 153.8,
       "name": "Edo Tensei Yota",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/759177784165007380/vXA6GPg.png",
       "description": "Yota was a young child from an unknown clan with mysterious powers of weather manipulation. He was revived by Yakushi Kabuto to fight in the Fourth Shinobi World War.",
@@ -17057,7 +17057,7 @@
       ]
     },
     {
-      "place": 174.5,
+      "id": 174.5,
       "name": "Edo Tensei Itachi",
       "avatar": "https://i.imgur.com/0ztaaLm.png",
       "description": "Following his death, Itachi's motives were revealed to be more complicated than they seemed and that his actions were only ever in the interest of his brother and village, making him remain a loyal shinobi of the Hidden Leaf Village to the very end. He was reincarnated by Kabuto during the Fourth Shinobi World War.",
@@ -17171,7 +17171,7 @@
       ]
     },
     {
-      "place": 175.1,
+      "id": 175.1,
       "name": "Edo Tensei Yagura",
       "avatar": "https://cdn.discordapp.com/attachments/673748029052026882/815703882822713355/MMAaBXO.png",
       "description": "Yagura was brought back to life by Kabuto during the Fourth Shinobi World War along with the other fallen jinchuuriki. He was made one of the new paths of Pain, working with Tobi.",
@@ -17242,7 +17242,7 @@
       ]
     },
     {
-      "place": 175.2,
+      "id": 175.2,
       "name": "Edo Tensei Roshi",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/826800857286180874/AbnWNhf.png",
       "description": "Roshi was brought back to life by Kabuto during the Fourth Shinobi World War along with the other fallen jinchuuriki. He was made one of the new paths of Pain, working with Tobi.",
@@ -17315,7 +17315,7 @@
       ]
     },
     {
-      "place": 175.3,
+      "id": 175.3,
       "name": "Edo Tensei Han",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/826801158425280515/fi79rdI.png",
       "description": "Han was brought back to life by Kabuto during the Fourth Shinobi World War along with the other fallen jinchuuriki. He was made one of the new paths of Pain, working with Tobi.",
@@ -17388,7 +17388,7 @@
       ]
     },
     {
-      "place": 175.4,
+      "id": 175.4,
       "name": "Edo Tensei Utakata",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/843072040528510976/7clAdkL.png",
       "description": "Utakata was brought back to life by Kabuto during the Fourth Shinobi World War along with the other fallen jinchuuriki. He was made one of the new paths of Pain, working with Tobi.",
@@ -17461,7 +17461,7 @@
       ]
     },
     {
-      "place": 175.5,
+      "id": 175.5,
       "name": "Edo Tensei Fuu",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/843072353122123786/A21LfDH.png",
       "description": "Fuu was brought back to life by Kabuto during the Fourth Shinobi World War along with the other fallen jinchuuriki. She was made one of the new paths of Pain, working with Tobi.",
@@ -17529,7 +17529,7 @@
       ]
     },
     {
-      "place": 176.1,
+      "id": 176.1,
       "name": "Edo Tensei Tobirama (S)",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/864148790331047986/Zd4fcRJ.png",
       "description": "Tobirama was brought back to life by Orochimaru during the Fourth Shinobi World War to help the Shinobi Alliance against the combined forces of Obito and Madara. As he watches the development of his own special techniques by the hands of other shinobi, he is eagling to bury Madara once and for all.",
@@ -17607,7 +17607,7 @@
       ]
     },
     {
-      "place": 176.2,
+      "id": 176.2,
       "name": "Edo Tensei Hiruzen",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/864149097245179934/t8negN4.png",
       "description": "Hiruzen was brought back to life by Orochimaru during the Fourth Shinobi World War to help the Shinobi Alliance against the combined forces of Obito and Madara. Hiruzen will do everything in his power to aid his village in the battle for the world's salvation.",
@@ -17682,7 +17682,7 @@
       ]
     },
     {
-      "place": 176.3,
+      "id": 176.3,
       "name": "Edo Tensei Minato",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/864149392133980210/9z7evJ5.png",
       "description": "Minato was brought back to life by Orochimaru during the Fourth Shinobi World War to help the Shinobi Alliance against the combined forces of Obito and Madara. He is willing to meet and help his son on the battle for the whole ninja world's existence.",
@@ -17752,7 +17752,7 @@
       ]
     },
     {
-      "place": 176.4,
+      "id": 176.4,
       "name": "Edo Tensei Kyuubi Minato",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/864149634145976320/4OuaQrq.png",
       "description": "To save his village from Kurama's rage, Minato sealed its dark half on himself shortly before his death. During the Fourth Shinobi World War, Minato entered Kyuubi Chakra Mode, what strenghtens his abilities and allows him to use jinchuuriki techniques.",
@@ -17861,7 +17861,7 @@
       ]
     },
     {
-      "place": 176.5,
+      "id": 176.5,
       "name": "Edo Tensei Madara",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/826801531260108810/bfo7VqR.png",
       "description": "Madara was brought back to life by Kabuto to be his most impressive and powerful weapon against the Shinobi Alliance. He is ready to show his strength against the ninja world and use his mastery in the Uchiha techniques once again.",
@@ -17972,7 +17972,7 @@
       ]
     },
     {
-      "place": 177.1,
+      "id": 177.1,
       "name": "Sennin Kyuubi Naruto",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/843072668605349898/YbMb4ia.png",
       "description": "During his fight against Tobi, Naruto got to combine his Sennin & Kurama Chakra Cloak modes in order to strenghten his abilities. Capable of creating a yellow projection of Kurama's body, Naruto becomes one of the fastest shinobi alive while in this mode.",
@@ -18063,7 +18063,7 @@
       ]
     },
     {
-      "place": 177.2,
+      "id": 177.2,
       "name": "Eternal Mangekyou Sasuke",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/843073075205111838/YuukPR7.png",
       "description": "To avoid complete blindness, Sasuke decided to take Tobi's advice and steal Itachi's eyes so he could achieve the Eternal Mangekyou Sharingan. With Sharingan's final form, Sasuke can use his powers repeatedly without exhausting himself.",
@@ -18165,7 +18165,7 @@
       ]
     },
     {
-      "place": 177.3,
+      "id": 177.3,
       "name": "Byakugou Sakura",
       "avatar": "https://media.discordapp.net/attachments/673748029052026882/876558490192195604/mBQP2WX.png",
       "description": "After being trained by Tsunade, Sakura started storing chakra on her forehead to release the Strength of a Hundred Seal during the Fourth Shinobi World War. Now capable of fighting side by side with her teammates, Sakura becomes one of the strongest kunoichi and greatest medical-nin the world has ever seen.",
@@ -18234,7 +18234,7 @@
       ]
     },
     {
-      "place": 177.5,
+      "id": 177.5,
       "name": "Butterfly Chouji (S)",
       "avatar": "https://i.imgur.com/XeUbawC.png",
       "description": "During the Fourth Shinobi World War, Chouji has to overcome his fears in order to make Asuma's last lesson worth it and defend the Shinobi Alliance. He now has full control of the Akimichi's special techniques, able to perform giant-form attacks covered by his butterfly chakra.",
