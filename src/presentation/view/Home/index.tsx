@@ -6,8 +6,6 @@ import { CharacterDetail } from "../../components/CharacterDetail";
 import CharacterIcon from "../../components/CharacterIcon";
 import { useCharacter } from "../../hooks/useCharacter";
 
-import { useNavigate } from "react-router-dom";
-
 import "./style.scss";
 import { ROUTES } from "../../Router";
 
@@ -16,8 +14,6 @@ export const Home: React.FC = () => {
         page,
         actions: { handleNavigate, handleGetAllCharacters },
     } = useCharacter();
-
-    const navigate = useNavigate();
 
     const { allCharacters, team } = useSelector(characterSelector);
 
