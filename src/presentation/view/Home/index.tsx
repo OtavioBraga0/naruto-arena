@@ -8,6 +8,7 @@ import { useCharacter } from "../../hooks/useCharacter";
 
 import "./style.scss";
 import { ROUTES } from "../../Router";
+import { teamSelector } from "../../../domain/ducks/teamReducer";
 
 export const Home: React.FC = () => {
     const {
@@ -15,16 +16,17 @@ export const Home: React.FC = () => {
         actions: { handleNavigate, handleGetAllCharacters },
     } = useCharacter();
 
-    const { allCharacters, team } = useSelector(characterSelector);
+    const { paginatedCharacters } = useSelector(characterSelector);
+    const { team } = useSelector(teamSelector);
 
     const hasPrev = useMemo(
-        () => Boolean(allCharacters.prev),
-        [allCharacters.prev]
+        () => Boolean(paginatedCharacters.prev),
+        [paginatedCharacters.prev]
     );
 
     const hasNext = useMemo(
-        () => Boolean(allCharacters.next),
-        [allCharacters.next]
+        () => Boolean(paginatedCharacters.next),
+        [paginatedCharacters.next]
     );
 
     const currentTeam = useMemo(() => {
@@ -61,8 +63,8 @@ export const Home: React.FC = () => {
                         onClick={() => handleNavigate(true)}
                     />
                     <div className="main__footer__characters__list">
-                        {allCharacters.characters &&
-                            allCharacters.characters.map((character) => (
+                        {paginatedCharacters.characters &&
+                            paginatedCharacters.characters.map((character) => (
                                 <CharacterIcon
                                     character={character}
                                     key={character.id}

@@ -8,7 +8,7 @@ import { EngageState } from "../DomainLayer";
 import { PayloadActionCreator } from "@reduxjs/toolkit/src/createAction";
 import { ICharacter } from "../entities/Character";
 import {
-  getAllCharacterThunk,
+  getPaginatedCharacterThunk,
   getDetailedCharacterThunk,
 } from "../thunks/characterThunk";
 
@@ -22,7 +22,7 @@ export type ListType = {
   last?: string;
 };
 export interface CharacterState {
-  allCharacters: ListType;
+  paginatedCharacters: ListType;
   detailedCharacter?: ICharacter;
   team: Array<ICharacter>;
   isLoading: boolean;
@@ -30,7 +30,7 @@ export interface CharacterState {
 }
 
 export const CHARACTER_INITIAL_STATE: CharacterState = {
-  allCharacters: { characters: [] },
+  paginatedCharacters: { characters: [] },
   team: [],
   isLoading: false,
   error: { error: false, errorCode: `` },
@@ -43,13 +43,6 @@ export const setLoading: PayloadActionCreator<boolean> = createAction(
   "duck/character/setLoading"
 );
 
-export const addOnTeam: PayloadActionCreator<ICharacter> = createAction(
-  "duck/character/addOnTeam"
-);
-
-export const removeFromTeam: PayloadActionCreator<Array<ICharacter>> =
-  createAction("duck/character/removeFromTeam");
-
 function handleSetLoading(
   state: CharacterState,
   action: boolean
@@ -60,33 +53,13 @@ function handleSetLoading(
   };
 }
 
-function handleAddOnTeam(
-  state: CharacterState,
-  action: PayloadAction<ICharacter>
-): CharacterState {
-  return {
-    ...state,
-    team: [...state.team, action.payload],
-  };
-}
-
-function handelRemoveFromTeam(
-  state: CharacterState,
-  action: PayloadAction<Array<ICharacter>>
-): CharacterState {
-  return {
-    ...state,
-    team: action.payload,
-  };
-}
-
 function handleGetAllCharacters(
   state: CharacterState,
   action: PayloadAction<ListType>
 ): CharacterState {
   return {
     ...state,
-    allCharacters: action.payload,
+    paginatedCharacters: action.payload,
   };
 }
 
@@ -118,12 +91,10 @@ function handleRejected(state: CharacterState): CharacterState {
 export const characterReducer: Reducer<CharacterState, CharacterActionType> =
   createReducer(CHARACTER_INITIAL_STATE, {
     [setLoading.type]: handleSetLoading,
-    [getAllCharacterThunk.pending.type]: handlePending,
-    [getAllCharacterThunk.rejected.type]: handleRejected,
-    [getAllCharacterThunk.fulfilled.type]: handleGetAllCharacters,
+    [getPaginatedCharacterThunk.pending.type]: handlePending,
+    [getPaginatedCharacterThunk.rejected.type]: handleRejected,
+    [getPaginatedCharacterThunk.fulfilled.type]: handleGetAllCharacters,
     [getDetailedCharacterThunk.pending.type]: handlePending,
     [getDetailedCharacterThunk.rejected.type]: handleRejected,
     [getDetailedCharacterThunk.fulfilled.type]: handleGetDetailedCharacters,
-    [addOnTeam.type]: handleAddOnTeam,
-    [removeFromTeam.type]: handelRemoveFromTeam,
   });

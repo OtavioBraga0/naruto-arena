@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addOnTeam, removeFromTeam } from "../../domain/ducks/characterReducer";
+import { addOnTeam, removeFromTeam } from "../../domain/ducks/teamReducer";
 import { teamSelector } from "../../domain/ducks/teamReducer";
 import { ICharacter } from "../../domain/entities/Character";
 

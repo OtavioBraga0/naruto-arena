@@ -3,7 +3,7 @@ import { ListType } from "../../domain/ducks/characterReducer";
 import { ICharacter } from "../../domain/entities/Character";
 import { parseLinkHeader } from "../../utils/parser";
 
-export async function getAllCharacters(
+export async function getPaginatedCharacter(
   page: number = 1,
   limit: number = 21
 ): Promise<ListType> {

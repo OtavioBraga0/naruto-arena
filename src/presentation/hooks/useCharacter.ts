@@ -1,7 +1,7 @@
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { useDispatch } from "react-redux";
 import {
-  getAllCharacterThunk,
+  getPaginatedCharacterThunk,
   getDetailedCharacterThunk,
 } from "../../domain/thunks/characterThunk";
 
@@ -21,7 +21,7 @@ export const useCharacter = (): UseCharacterType => {
 
   const handleGetAllCharacters = useCallback(
     (currentPage) => {
-      dispatch(getAllCharacterThunk({ page: currentPage }));
+      dispatch(getPaginatedCharacterThunk({ page: currentPage }));
     },
     [dispatch]
   );
@@ -36,6 +36,8 @@ export const useCharacter = (): UseCharacterType => {
     },
     [dispatch]
   );
+
+  const characterFilter = useMemo(() => {}, []);
 
   return {
     page,

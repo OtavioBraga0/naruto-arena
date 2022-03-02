@@ -2,7 +2,7 @@ import { Dispatch } from "redux";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { EngageState } from "../DomainLayer";
 import {
-  getAllCharacters,
+  getPaginatedCharacter,
   getDetailedCharacter,
 } from "../../data/services/character";
 import { ListType } from "../ducks/characterReducer";
@@ -13,13 +13,13 @@ export interface ThunkApi {
   state: EngageState;
   rejectValue: string;
 }
-export const getAllCharacterThunk = createAsyncThunk<
+export const getPaginatedCharacterThunk = createAsyncThunk<
   ListType,
   { page: number },
   ThunkApi
->("thunk/character/getAllCharacterThunk", async (payload, thunkAPI) => {
+>("thunk/character/getPaginatedCharacterThunk", async (payload, thunkAPI) => {
   try {
-    const response = await getAllCharacters(payload.page);
+    const response = await getPaginatedCharacter(payload.page);
 
     return response;
   } catch (error: any) {
