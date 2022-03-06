@@ -7,17 +7,22 @@ export interface ICharacter {
   alternateSkills: Array<string>;
   charFilter: Array<string>;
   skillFilter: Array<string>;
-  chakraUsed: Array<string>;
-  mission: Array<string>;
 }
 
 export type Skill = {
-  skillName: string;
-  skillPics: string;
-  skillDescription: string;
-  skillClasses: string;
-  skillCost: Array<string>;
-  skillCooldown: string;
+  name: string;
+  pic: string;
+  description: string;
+  ability: {
+    value: number;
+    target: Array<string>;
+    classes: Array<string>;
+    require: Array<string>;
+    effect: Array<Effect>;
+    aditionalDamage: Array<AditionalDamage>;
+    cost: Array<Cost>;
+    cooldown: number;
+  };
 };
 
 export const DEFAULT_CHARACTER = {
@@ -29,6 +34,25 @@ export const DEFAULT_CHARACTER = {
   alternateSkills: [],
   charFilter: [],
   skillFilter: [],
-  chakraUsed: [],
-  mission: [],
 };
+
+type Effect = {
+  turn: number;
+  value: number;
+  name: string;
+};
+
+type AditionalDamage = {
+  name: string;
+  value: number;
+};
+
+type Cost = {
+  type: string;
+  quantity: number;
+};
+
+export interface InBattleCharacter extends ICharacter {
+  health: number;
+  condition: Array<string>;
+}

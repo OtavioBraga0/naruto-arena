@@ -1,0 +1,689 @@
+{
+  "characters": [
+    {
+      "name": "Uzumaki Naruto",
+      "description": "A Genin from Team 7, Naruto is an orphan with the goal to one day become Hokage. Using his signature move, Shadow Clones, Naruto is able to perform powerful moves such as the Uzumaki Naruto Combo and the Rasengan.",
+      "id": 1,
+      "avatar": "https://i.imgur.com/mJ505HX.jpg",
+      "skills": [
+        {
+          "name": "Uzumaki Naruto Combo",
+          "pic": "https://i.imgur.com/xjPDnEH.jpg",
+          "description": "This skill deals 20 damage to one enemy. During 'Shadow Clones' this skill will deal 10 additional damage.",
+          "ability": {
+            "value": 20,
+            "target": ["enemy"],
+            "classes": ["Physical", "Instant"],
+            "require": [],
+            "effect": [],
+            "aditionalDamage": [
+              {
+                "name": "Shadow Clones",
+                "value": 10
+              }
+            ],
+            "cost": [{ "quantity": 1, "type": "tai" }],
+            "cooldown": 0
+          }
+        },
+        {
+          "name": "Rasengan",
+          "pic": "https://i.imgur.com/m89ctXB.jpg",
+          "description": "Uzumaki Naruto deals 45 damage to one enemy and stuns their skills for 1 turn. This skill requires 'Shadow Clones'.",
+          "ability": {
+            "value": 45,
+            "target": ["enemy"],
+            "classes": ["Energy", "Instant"],
+            "require": ["Shadow Clones"],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "stun"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [
+              { "quantity": 1, "type": "nin" },
+              { "quantity": 1, "type": "random" }
+            ],
+            "cooldown": 1
+          }
+        },
+        {
+          "name": "Shadow Clones",
+          "pic": "https://i.imgur.com/unk6ekn.jpg",
+          "description": "Uzumaki Naruto gains 15 points of damage reduction for 4 turns. During this time 'Uzumaki Naruto Combo' will deal 10 additional damage and 'Rasengan' can be used.",
+          "ability": {
+            "value": 15,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 4,
+                "name": "defense"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "quantity": 1, "type": "random" }],
+            "cooldown": 4
+          }
+        },
+        {
+          "name": "Sexy Technique",
+          "pic": "https://i.imgur.com/danVHUb.jpg",
+          "description": "This skill makes Uzumaki Naruto invulnerable for 1 turn.",
+          "ability": {
+            "value": 0,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "invulnerability"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "quantity": 1, "type": "random" }],
+            "cooldown": 4
+          }
+        }
+      ],
+      "alternateSkills": [],
+      "charFilter": ["Konoha", "Jinchuuriki", "Genin", "Team 7"],
+      "skillFilter": [
+        "Taijutsu",
+        "Ninjutsu",
+        "Random",
+        "Stun",
+        "Damage Reduction",
+        "Additional Damage"
+      ]
+    },
+    {
+      "name": "Haruno Sakura",
+      "description": "A Genin from Team 7, Sakura is very intelligent, but self-conscious about herself. Having just recently received training from Tsunade, Sakura is now able to deliver powerful punches and heal her own allies.",
+      "id": 2,
+      "avatar": "https://i.imgur.com/PnQ7L54.jpg",
+      "skills": [
+        {
+          "name": "KO Punch",
+          "pic": "https://i.imgur.com/tkgPo5u.jpg",
+          "description": "Haruno Sakura deals 20 damage to one enemy and stuns their physical and strategic skills for 1 turn. During 'Inner Sakura', 'KO Punch' deals 10 additional damage.",
+          "ability": {
+            "value": 20,
+            "target": ["enemy"],
+            "classes": ["Energy", "Instant"],
+            "require": ["Shadow Clones"],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "stun",
+                "target": ["Physical", "Strategic"]
+              }
+            ],
+            "aditionalDamage": [
+              {
+                "name": "Inner Sakura",
+                "value": 10
+              }
+            ],
+            "cost": [{ "quantity": 1, "type": "tai" }],
+            "cooldown": 0
+          }
+        },
+        {
+          "name": "Cure",
+          "pic": "https://i.imgur.com/iqL6SOO.jpg",
+          "description": "Haruno Sakura heals herself or an ally for 25 health.",
+          "ability": {
+            "value": 25,
+            "target": ["ally"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 0,
+                "name": "cure"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "quantity": 1, "type": "nin" }],
+            "cooldown": 0
+          }
+        },
+        {
+          "name": "Inner Sakura",
+          "pic": "https://i.imgur.com/03BjSkn.jpg",
+          "description": "For 4 turns, Haruno Sakura will gain 10 points of damage reduction and will ignore all stun effects. During this time 'KO Punch' will deal 10 additional damage.",
+          "ability": {
+            "value": 10,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "defense"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "quantity": 1, "type": "random" }],
+            "cooldown": 4
+          }
+        },
+        {
+          "name": "Sakura Hide",
+          "pic": "https://i.imgur.com/VeFDDvk.jpg",
+          "description": "This skill makes Haruno Sakura invulnerable for 1 turn.",
+          "ability": {
+            "damage": 0,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "invulnerability"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "quantity": 1, "type": "random" }],
+            "cooldown": 4
+          }
+        }
+      ],
+      "alternateSkills": [],
+      "charFilter": ["Konoha", "Genin", "Team 7", "Medical-Nin"],
+      "skillFilter": [
+        "Taijutsu",
+        "Ninjutsu",
+        "Random",
+        "Stun",
+        "Healing",
+        "Damage Reduction",
+        "Ignores",
+        "Additional Damage"
+      ]
+    },
+    {
+      "name": "Uchiha Sasuke",
+      "description": "A Genin from Team 7, Sasuke is the lone survivor of the Uchiha clan and has sworn vengeance against his brother. Using his sharingan, Sasuke is able to anticipate incoming attacks and is capable of advanced offensive moves.",
+      "id": 3,
+      "avatar": "https://i.imgur.com/1cTOEtq.jpg",
+      "skills": [
+        {
+          "name": "Lion Combo",
+          "pic": "https://i.imgur.com/nH8VFXW.jpg",
+          "description": "Uchiha Sasuke deals 30 damage to one enemy. This skill will deal 15 additional damage to an enemy affected by 'Sharingan'.",
+          "ability": {
+            "value": 30,
+            "target": ["enemy"],
+            "classes": ["Physical", "Instant"],
+            "require": [],
+            "effect": [],
+            "aditionalDamage": [
+              {
+                "name": "Sharingan",
+                "value": 15
+              }
+            ],
+            "cost": [
+              { "quantity": 1, "type": "tai" },
+              { "quantity": 1, "type": "random" }
+            ],
+            "cooldown": 0
+          }
+        },
+        {
+          "name": "Chidori",
+          "pic": "https://i.imgur.com/NWdCZTw.jpg",
+          "description": "Uchiha Sasuke deals 35 piercing damage to one enemy. This skill will deal 25 additional damage to an enemy affected by 'Sharingan'.",
+          "ability": {
+            "value": 35,
+            "target": ["enemy"],
+            "classes": ["Energy", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "ignore defense"
+              }
+            ],
+            "aditionalDamage": [
+              {
+                "name": "Sharingan",
+                "value": 25
+              }
+            ],
+            "cost": [
+              { "quantity": 1, "type": "nin" },
+              { "quantity": 1, "type": "random" }
+            ],
+            "cooldown": 1
+          }
+        },
+        {
+          "name": "Sharingan",
+          "pic": "https://i.imgur.com/HncY2WB.jpg",
+          "description": "Uchiha Sasuke targets one enemy. For 3 turns, Uchiha Sasuke will gain 10 points of damage reduction. During this time, that enemy will be unable to reduce damage or become invulnerable. This skill will end if Uchiha Sasuke dies.",
+          "ability": {
+            "value": 0,
+            "target": ["enemy", "self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 3,
+                "name": "defense"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "quantity": 1, "type": "random" }],
+            "cooldown": 4
+          }
+        },
+        {
+          "name": "Swift Block",
+          "pic": "https://i.imgur.com/cLkTOYa.jpg",
+          "description": "This skill makes Uchiha Sasuke invulnerable for 1 turn.",
+          "ability": {
+            "value": 0,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "invulnerability"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "quantity": 1, "type": "random" }],
+            "cooldown": 4
+          }
+        }
+      ],
+      "alternateSkills": [],
+      "charFilter": ["Konoha", "Genin", "Team 7", "Uchiha"],
+      "skillFilter": [
+        "Taijutsu",
+        "Ninjutsu",
+        "Random",
+        "Piercing",
+        "Damage Reduction",
+        "Unable to Reduce",
+        "Increase Damage"
+      ]
+    },
+    {
+      "name": "Inuzuka Kiba",
+      "description": "A Genin from Team 8, Kiba is a member of the Inuzuka clan, and is both short-tempered and impulsive. Using his dog, Akamaru, Kiba is capable of powerful taijutsu or fusing with Akamaru to become a deadly double headed dog.",
+      "id": 4,
+      "avatar": "https://i.imgur.com/wfrSWxS.jpg",
+      "skills": [
+        {
+          "name": "Garouga",
+          "pic": "https://i.imgur.com/Nr38V8Y.jpg",
+          "description": "This skill deals 30 damage to one enemy. During 'Double Headed Wolf' this skill is improved and costs 1 less random energy.",
+          "ability": {
+            "value": 30,
+            "target": ["enemy"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [],
+            "aditionalDamage": [
+              {
+                "name": "Double Headed Wolf",
+                "value": 0,
+                "effect": [
+                  {
+                    "turn": 1,
+                    "name": ["less random"]
+                  }
+                ]
+              },
+              {
+                "name": "Dynamic Marking",
+                "value": 5
+              }
+            ],
+            "cost": [
+              { "quantity": 1, "type": "tai" },
+              { "quantity": 1, "type": "random" }
+            ],
+            "cooldown": 0
+          }
+        },
+        {
+          "name": "Double Headed Wolf",
+          "pic": "https://i.imgur.com/GEE2TOM.jpg",
+          "description": "Inuzuka Kiba deals 15 damage to all enemies for 3 turns. The following 3 turns, 'Garouga' will be improved and cost 1 random energy less.* During this time, Inuzuka Kiba gains 15 points of damage reduction.",
+          "ability": {
+            "value": 15,
+            "target": ["allEnemy"],
+            "classes": ["Physical", "Action", "Instant*"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 3,
+                "name": "damage"
+              },
+              {
+                "turn": 3,
+                "name": "defense",
+                "value": 15
+              }
+            ],
+            "aditionalDamage": [
+              {
+                "name": "Dynamic Marking",
+                "value": 5
+              }
+            ],
+            "cost": [
+              { "quantity": 1, "type": "tai" },
+              { "quantity": 1, "type": "blood" }
+            ],
+            "cooldown": 3
+          }
+        },
+        {
+          "name": "Dynamic Marking",
+          "pic": "https://i.imgur.com/Yfy3klx.jpg",
+          "description": "Inuzuka Kiba targets one enemy making them unable to reduce damage or become invulnerable for 2 turns. During this time, 'Garouga' and 'Double Headed Wolf' will deal 5 additional damage to them. This skill cannot be used on an enemy already being affected.",
+          "ability": {
+            "value": 0,
+            "target": ["enemy"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 2,
+                "name": "unable defense"
+              },
+              {
+                "turn": 2,
+                "name": "unable invulnerability"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [],
+            "cooldown": 1
+          }
+        },
+        {
+          "name": "Smoke Bomb",
+          "pic": "https://i.imgur.com/lTejsjD.jpg",
+          "description": "This skill makes Inuzuka Kiba invulnerable for 1 turn.",
+          "ability": {
+            "value": 0,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 2,
+                "name": "invulnerability"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [
+              {
+                "type": "random",
+                "quantity": 1
+              }
+            ],
+            "cooldown": 4
+          }
+        }
+      ],
+      "alternateSkills": [],
+      "charFilter": ["Konoha", "Genin", "Team 8"],
+      "skillFilter": [
+        "Taijutsu",
+        "Bloodline",
+        "Random",
+        "None",
+        "AOE",
+        "Damage Reduction",
+        "Unable to Reduce",
+        "Increase Damage",
+        "Affects Chakra Cost",
+        "Damage over Time"
+      ]
+    },
+    {
+      "name": "Aburame Shino",
+      "description": "A Genin from Team 8, Shino is the successor of the Aburame clan, and a very reserved and tactical fighter. Using the bugs that live inside his body, Shino is able to leech the chakra off his enemies, or protect his entire team.",
+      "id": 5,
+      "avatar": "https://i.imgur.com/uaMaL3v.jpg",
+      "skills": [
+        {
+          "name": "Chakra Leach",
+          "pic": "https://i.imgur.com/jEnjIRA.jpg",
+          "description": "Aburame Shino deals 20 affliction damage to one enemy and steals 1 random energy from them.",
+          "ability": {
+            "value": 20,
+            "target": ["enemy"],
+            "classes": ["Physical", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "steal random"
+              }
+            ],
+            "aditionalDamage": [
+              {
+                "name": "Female Bug",
+                "turn": 4,
+                "value": 5
+              }
+            ],
+            "cost": [
+              {
+                "type": "blood",
+                "quantity": 1
+              },
+              {
+                "type": "random",
+                "quantity": 1
+              }
+            ],
+            "cooldown": 1
+          }
+        },
+        {
+          "name": "Female Bug",
+          "pic": "https://i.imgur.com/oEjXE4N.jpg",
+          "description": "Aburame Shino targets one enemy. For 4 turns, their non-affliction damage will be reduced by 5. During this time, 'Chakra Leach' will deal 5 additional damage to them. This skill cannot be used on an enemy already affected by it.",
+          "ability": {
+            "value": 0,
+            "target": ["enemy"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 4,
+                "name": "defense non-affliction"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [],
+            "cooldown": 1
+          }
+        },
+        {
+          "name": "Bug Wall",
+          "pic": "https://i.imgur.com/ZnI4UeN.jpg",
+          "description": "Aburame Shino grants his team 25 points of permanent destructible defense. This skill stacks.",
+          "ability": {
+            "value": 25,
+            "target": ["allAlly"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 0,
+                "name": "destructible defense"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [
+              { "type": "blood", "quantity": 1 },
+              { "type": "random", "quantity": 1 }
+            ],
+            "cooldown": 3
+          }
+        },
+        {
+          "name": "Shino Hide",
+          "pic": "https://i.imgur.com/xmnDpJO.jpg",
+          "description": "This skill makes Aburame Shino invulnerable for 1 turn.",
+          "ability": {
+            "value": 0,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "invulnerability"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "type": "random", "quantity": 1 }],
+            "cooldown": 4
+          }
+        }
+      ],
+      "alternateSkills": [],
+      "charFilter": ["Konoha", "Genin", "Team 8"],
+      "skillFilter": [
+        "Bloodline",
+        "Random",
+        "Steal Chakra",
+        "Affliction",
+        "Destructible Defense",
+        "Increase Damage",
+        "Reduce Dealt Damage",
+        "Stacks"
+      ]
+    },
+    {
+      "name": "Hyuuga Hinata",
+      "description": "A Genin from Team 8, Hinata is the next in line in the Hyuuga clan, but she is shy and very withdrawn. Using the trademark Byakugan of the Hyuuga, Hinata is able to delicately target an enemy's Chakra Points while defending the team.",
+      "id": 6,
+      "avatar": "https://i.imgur.com/7uh5923.jpg",
+      "skills": [
+        {
+          "name": "Hinata Gentle Fist",
+          "pic": "https://i.imgur.com/DytrDfA.jpg",
+          "description": "Hyuuga Hinata deals 15 damage to one enemy for 2 turns. If used during 'Byakugan', this skill will also remove 1 random energy each turn.",
+          "ability": {
+            "value": 15,
+            "target": ["enemy"],
+            "classes": ["Physical", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 2,
+                "name": "damage"
+              }
+            ],
+            "aditionalDamage": [
+              {
+                "name": "Byakugan",
+                "effect": [{ "name": "remove random", "turn": 4 }]
+              }
+            ],
+            "cost": [{ "type": "tai", "quantity": 1 }],
+            "cooldown": 1
+          }
+        },
+        {
+          "name": "Protective Eight Trigrams Sixty-Four Palms",
+          "pic": "https://i.imgur.com/Z91qKST.jpg",
+          "description": "Hyuuga Hinata deals 10 damage to all enemies and grants her team 10 points of destructible defense for 1 turn. If used during 'Byakugan', this skill will deal 5 additional damage.",
+          "ability": {
+            "value": 10,
+            "target": ["allEnemy"],
+            "classes": ["Energy", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "value": 10,
+                "name": "destructible defense"
+              }
+            ],
+            "aditionalDamage": [
+              {
+                "name": "Byakugan",
+                "value": 5
+              }
+            ],
+            "cost": [{ "type": "nin", "quantity": 1 }],
+            "cooldown": 0
+          }
+        },
+        {
+          "name": "Byakugan",
+          "pic": "https://i.imgur.com/E9uE4Qc.jpg",
+          "description": "Hyuuga Hinata gains 15 points of damage reduction for 4 turns. The following 4 turns, 'Hinata Gentle Fist' and 'Protective Eight Trigrams Sixty-Four Palms' will be improved.",
+          "ability": {
+            "value": 25,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 4,
+                "value": 15,
+                "name": "defense"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "type": "random", "quantity": 1 }],
+            "cooldown": 4
+          }
+        },
+        {
+          "name": "Hinata Block",
+          "pic": "https://i.imgur.com/sQ2C9yQ.jpg",
+          "description": "This skill makes Hyuuga Hinata invulnerable for 1 turn.",
+          "ability": {
+            "value": 0,
+            "target": ["self"],
+            "classes": ["Strategic", "Instant"],
+            "require": [],
+            "effect": [
+              {
+                "turn": 1,
+                "name": "invulnerability"
+              }
+            ],
+            "aditionalDamage": [],
+            "cost": [{ "type": "random", "quantity": 1 }],
+            "cooldown": 4
+          }
+        }
+      ],
+      "alternateSkills": [],
+      "charFilter": ["Konoha", "Genin", "Team 8", "Hyuuga"],
+      "skillFilter": [
+        "Taijutsu",
+        "Ninjutsu",
+        "Random",
+        "Remove Chakra",
+        "AOE",
+        "Damage Reduction",
+        "Destructible Defense",
+        "Additional Damage",
+        "Damage over Time"
+      ]
+    }
+  ]
+}

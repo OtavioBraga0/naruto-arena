@@ -7,87 +7,69 @@ import CharacterIcon from "../../components/CharacterIcon";
 import { useCharacter } from "../../hooks/useCharacter";
 
 import "./style.scss";
-import { ROUTES } from "../../Router";
 import { teamSelector } from "../../../domain/ducks/teamReducer";
+import { Link } from "react-router-dom";
+import { ROUTES } from "../../Router";
 
 export const Home: React.FC = () => {
-    const {
-        page,
-        actions: { handleNavigate, handleGetAllCharacters },
-    } = useCharacter();
+  const {
+    actions: { handleGetPaginatedCharacters },
+  } = useCharacter();
 
-    const { paginatedCharacters } = useSelector(characterSelector);
-    const { team } = useSelector(teamSelector);
+  const { paginatedCharacters } = useSelector(characterSelector);
+  const { team } = useSelector(teamSelector);
 
-    const hasPrev = useMemo(
-        () => Boolean(paginatedCharacters.prev),
-        [paginatedCharacters.prev]
-    );
+  const currentTeam = useMemo(() => {
+    const blankTeam = Array(3).fill(DEFAULT_CHARACTER);
 
-    const hasNext = useMemo(
-        () => Boolean(paginatedCharacters.next),
-        [paginatedCharacters.next]
-    );
+    return [...team, ...blankTeam].slice(0, 3);
+  }, [team]);
 
-    const currentTeam = useMemo(() => {
-        const blankTeam = Array(3).fill(DEFAULT_CHARACTER);
+  useEffect(() => {
+    handleGetPaginatedCharacters();
+  }, [handleGetPaginatedCharacters]);
 
-        return [...team, ...blankTeam].slice(0, 3);
-    }, [team]);
-
-    useEffect(() => {
-        handleGetAllCharacters(page);
-    }, [page, handleGetAllCharacters]);
-
-    return (
-        <main className="main">
-            <CharacterDetail />
-            <div className="main__menu">
-                <a
-                    className="main__menu__item"
-                    href={ROUTES.MISSIONS}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    Missions
-                </a>
-                <button className="main__menu__item">Start Ladder Game</button>
-                <button className="main__menu__item">Start Quick Game</button>
-                <button className="main__menu__item">Start Private Game</button>
-            </div>
-            <div className="main__footer">
-                <div className="main__footer__characters">
-                    <button
-                        className="main__footer__prev-button"
-                        disabled={!hasPrev}
-                        onClick={() => handleNavigate(true)}
-                    />
-                    <div className="main__footer__characters__list">
-                        {paginatedCharacters.characters &&
-                            paginatedCharacters.characters.map((character) => (
-                                <CharacterIcon
-                                    character={character}
-                                    key={character.id}
-                                    disabled={team.indexOf(character) !== -1}
-                                />
-                            ))}
-                    </div>
-                    <button
-                        className="main__footer__next-button"
-                        disabled={!hasNext}
-                        onClick={() => handleNavigate()}
-                    />
-                </div>
-                <div className="main__footer__team">
-                    {currentTeam.map((teamMember, index) => (
-                        <CharacterIcon
-                            character={teamMember}
-                            key={`${teamMember.id}-${index}`}
-                            isOnTeam
-                        />
-                    ))}
-                </div>
-            </div>
-        </main>
-    );
+  return (
+    <main className="main">
+      <CharacterDetail />
+      <div className="main__menu">
+        <button className="main__menu__item">Start Ladder Game</button>
+        <Link to={ROUTES.QUICK_MATCH} className="main__menu__item">
+          Start Quick Match
+        </Link>
+        <button className="main__menu__item">Start Private Game</button>
+      </div>
+      <div className="main__footer">
+        <div className="main__footer__characters">
+          <button className="main__footer__prev-button" />
+          <div className="main__footer__characters__list">
+            {paginatedCharacters &&
+              paginatedCharacters.map((character) => (
+                <CharacterIcon
+                  character={character}
+                  key={character.id}
+                  disabled={
+                    team.indexOf({
+                      ...character,
+                      health: 100,
+                      condition: [],
+                    }) !== -1
+                  }
+                />
+              ))}
+          </div>
+          <button className="main__footer__next-button" />
+        </div>
+        <div className="main__footer__team">
+          {currentTeam.map((teamMember, index) => (
+            <CharacterIcon
+              character={teamMember}
+              key={`${teamMember.id}-${index}`}
+              isOnTeam
+            />
+          ))}
+        </div>
+      </div>
+    </main>
+  );
 };

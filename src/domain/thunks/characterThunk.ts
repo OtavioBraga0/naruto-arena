@@ -5,7 +5,6 @@ import {
   getPaginatedCharacter,
   getDetailedCharacter,
 } from "../../data/services/character";
-import { ListType } from "../ducks/characterReducer";
 import { ICharacter } from "../entities/Character";
 
 export interface ThunkApi {
@@ -14,12 +13,12 @@ export interface ThunkApi {
   rejectValue: string;
 }
 export const getPaginatedCharacterThunk = createAsyncThunk<
-  ListType,
-  { page: number },
+  Array<ICharacter>,
+  void,
   ThunkApi
->("thunk/character/getPaginatedCharacterThunk", async (payload, thunkAPI) => {
+>("thunk/character/getPaginatedCharacterThunk", async (_, thunkAPI) => {
   try {
-    const response = await getPaginatedCharacter(payload.page);
+    const response = await getPaginatedCharacter();
 
     return response;
   } catch (error: any) {

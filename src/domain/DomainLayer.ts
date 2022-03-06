@@ -22,19 +22,28 @@ import {
   characterReducer,
   CharacterState,
 } from "./ducks/characterReducer";
-import { teamReducer, TeamState } from "./ducks/teamReducer";
+import { TeamActionType, teamReducer, TeamState } from "./ducks/teamReducer";
+import {
+  BattleActionType,
+  battleReducer,
+  BattleState,
+} from "./ducks/battleReducer";
 
 export interface EngageState {
   readonly character: CharacterState;
   readonly team: TeamState;
+  readonly battle: BattleState;
 }
 
-export type EngageActions = CharacterActionType;
+export type EngageActions = CharacterActionType &
+  TeamActionType &
+  BattleActionType;
 
 export type EngageStore = EnhancedStore<EngageState, EngageActions>;
 const rootReducer: ReducersMapObject<EngageState, EngageActions> = {
   character: characterReducer,
   team: teamReducer,
+  battle: battleReducer,
 };
 
 const persistConfig = {

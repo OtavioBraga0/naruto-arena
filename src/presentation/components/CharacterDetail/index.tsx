@@ -20,12 +20,12 @@ export const CharacterDetail: React.FC = () => {
       let newDetail = INITIAL_DETAIL;
       if (name) {
         const filteredSkill = detailedCharacter?.skills.filter(
-          (skill) => skill.skillName === name
+          (skill) => skill.name === name
         )[0];
         newDetail = {
-          title: filteredSkill?.skillName as string,
-          description: filteredSkill?.skillDescription as string,
-          image: filteredSkill?.skillPics as string,
+          title: filteredSkill?.name as string,
+          description: filteredSkill?.description as string,
+          image: filteredSkill?.pic as string,
         };
       } else {
         newDetail = {
@@ -61,10 +61,10 @@ export const CharacterDetail: React.FC = () => {
         {detailedCharacter.skills.map((skill) => (
           <img
             className="character-detail__images__item"
-            src={skill.skillPics}
-            alt={skill.skillName}
-            key={skill.skillName}
-            onClick={() => handleChangeDescription(skill.skillName)}
+            src={skill.pic}
+            alt={skill.name}
+            key={skill.name}
+            onClick={() => handleChangeDescription(skill.name)}
           />
         ))}
       </div>

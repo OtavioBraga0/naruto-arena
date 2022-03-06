@@ -13,16 +13,8 @@ import {
 } from "../thunks/characterThunk";
 
 export type CharacterActionType = PayloadAction<boolean> | PayloadAction<void>;
-
-export type ListType = {
-  characters: Array<ICharacter>;
-  prev?: string;
-  next?: string;
-  first?: string;
-  last?: string;
-};
 export interface CharacterState {
-  paginatedCharacters: ListType;
+  paginatedCharacters: Array<ICharacter>;
   detailedCharacter?: ICharacter;
   team: Array<ICharacter>;
   isLoading: boolean;
@@ -30,7 +22,7 @@ export interface CharacterState {
 }
 
 export const CHARACTER_INITIAL_STATE: CharacterState = {
-  paginatedCharacters: { characters: [] },
+  paginatedCharacters: [],
   team: [],
   isLoading: false,
   error: { error: false, errorCode: `` },
@@ -53,9 +45,9 @@ function handleSetLoading(
   };
 }
 
-function handleGetAllCharacters(
+function handleGetPaginatedCharacters(
   state: CharacterState,
-  action: PayloadAction<ListType>
+  action: PayloadAction<Array<ICharacter>>
 ): CharacterState {
   return {
     ...state,
@@ -93,7 +85,7 @@ export const characterReducer: Reducer<CharacterState, CharacterActionType> =
     [setLoading.type]: handleSetLoading,
     [getPaginatedCharacterThunk.pending.type]: handlePending,
     [getPaginatedCharacterThunk.rejected.type]: handleRejected,
-    [getPaginatedCharacterThunk.fulfilled.type]: handleGetAllCharacters,
+    [getPaginatedCharacterThunk.fulfilled.type]: handleGetPaginatedCharacters,
     [getDetailedCharacterThunk.pending.type]: handlePending,
     [getDetailedCharacterThunk.rejected.type]: handleRejected,
     [getDetailedCharacterThunk.fulfilled.type]: handleGetDetailedCharacters,
