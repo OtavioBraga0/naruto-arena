@@ -49,7 +49,7 @@ const rootReducer: ReducersMapObject<EngageState, EngageActions> = {
 const persistConfig = {
   key: "root",
   storage,
-  whitelist: [],
+  whitelist: ["team"],
 };
 
 const persistedReducer = persistReducer(

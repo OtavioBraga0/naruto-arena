@@ -1,11 +1,16 @@
-import React, { HTMLAttributes, useCallback, useState } from "react";
-import { ICharacter } from "../../../domain/entities/Character";
+import React, { HTMLAttributes, useMemo } from "react";
+import { useSelector } from "react-redux";
+import { battleSelector } from "../../../domain/ducks/battleReducer";
+import { IInBattleCharacter, Skill } from "../../../domain/entities/Character";
+import { useBattle } from "../../hooks/useBattle";
+
+import "./style.scss";
 
 interface InBattleCharacterType extends HTMLAttributes<HTMLElement> {
-  character: ICharacter;
+  character: IInBattleCharacter;
   health: number;
   enemy?: boolean;
-  handleSelectSkill?: (damage: number) => void;
+  handleSelectSkill?: (member: number, skill: Skill) => void;
   handleSelectTarget?: (id: number) => void;
 }
 
@@ -18,21 +23,23 @@ export const InBattleCharacter: React.FC<InBattleCharacterType> = ({
   className,
   ...rest
 }) => {
-  const [spelled, setSpelled] = useState(false);
+  const { turn } = useSelector(battleSelector);
 
-  const handleSpellSkill = useCallback(
-    (damage: number) => {
-      if (handleSelectSkill) {
-        handleSelectSkill(damage);
-      }
+  const {
+    actions: { handleCancelSkill },
+  } = useBattle();
 
-      setSpelled(true);
-    },
-    [handleSelectSkill]
-  );
+  const checkCharacterAction = useMemo(() => {
+    return turn.filter((action) => action.member === character.id)[0];
+  }, [turn, character]);
 
   return (
-    <div {...rest} className={`${className} in-battle-character`}>
+    <div
+      {...rest}
+      className={`${className} in-battle-character ${
+        character.condition.includes("dead") ? "in-battle-character--dead" : ""
+      }`}
+    >
       <div className="in-battle-character__avatar">
         <img
           src={character.avatar}
@@ -41,6 +48,14 @@ export const InBattleCharacter: React.FC<InBattleCharacterType> = ({
             enemy && handleSelectTarget && handleSelectTarget(character.id)
           }
         />
+        {!enemy && checkCharacterAction && (
+          <button
+            key={checkCharacterAction.skill.name}
+            onClick={() => handleCancelSkill(checkCharacterAction.member)}
+          >
+            {checkCharacterAction.skill.name}
+          </button>
+        )}
         {health}/100
       </div>
       {!enemy && (
@@ -48,8 +63,13 @@ export const InBattleCharacter: React.FC<InBattleCharacterType> = ({
           {character.skills.map((skill) => (
             <button
               key={skill.name}
-              onClick={() => handleSpellSkill(skill.ability.value)}
-              disabled={spelled}
+              onClick={() =>
+                handleSelectSkill && handleSelectSkill(character.id, skill)
+              }
+              disabled={
+                turn.filter((turnSkill) => turnSkill.member === character.id)
+                  .length > 0
+              }
             >
               {skill.name}
             </button>

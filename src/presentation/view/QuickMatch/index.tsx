@@ -1,49 +1,26 @@
-import React, { useCallback, useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import {
-  addTeamOnBattle,
-  battleSelector,
-  endTurn,
-  selectTarget,
-} from "../../../domain/ducks/battleReducer";
-import { teamSelector } from "../../../domain/ducks/teamReducer";
+import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { battleSelector } from "../../../domain/ducks/battleReducer";
 import { InBattleCharacter } from "../../components/InBattleCharacter";
+import { useBattle } from "../../hooks/useBattle";
 
 import "./style.scss";
 
 export const QuickMatch: React.FC = () => {
   const { battle } = useSelector(battleSelector);
-  const { team } = useSelector(teamSelector);
 
-  const dispatch = useDispatch();
-
-  const [damage, setDamage] = useState(0);
+  const {
+    actions: {
+      handleStartBattle,
+      handleSelectSkill,
+      handleSelectTarget,
+      handleEndTurn,
+    },
+  } = useBattle();
 
   useEffect(() => {
-    if (team) {
-      dispatch(
-        addTeamOnBattle({
-          ally: team.map((teamMember) => ({ ...teamMember, health: 100 })),
-          enemy: team.map((teamMember) => ({ ...teamMember, health: 100 })),
-        })
-      );
-    }
-  }, [dispatch, team]);
-
-  const handleSelectSkill = useCallback((damage: number) => {
-    setDamage(damage);
-  }, []);
-
-  const handleSelectTarget = useCallback(
-    (id: number) => {
-      dispatch(selectTarget({ damage, target: id }));
-    },
-    [dispatch, damage]
-  );
-
-  const handleEndTurn = useCallback(() => {
-    dispatch(endTurn());
-  }, [dispatch]);
+    handleStartBattle();
+  }, [handleStartBattle]);
 
   return (
     <div className="in-battle">

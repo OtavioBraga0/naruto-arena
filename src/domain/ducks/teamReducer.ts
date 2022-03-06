@@ -6,11 +6,11 @@ import {
 } from "@reduxjs/toolkit";
 import { EngageState } from "../DomainLayer";
 import { PayloadActionCreator } from "@reduxjs/toolkit/src/createAction";
-import { ICharacter, InBattleCharacter } from "../entities/Character";
+import { ICharacter, IInBattleCharacter } from "../entities/Character";
 
 export type TeamActionType = PayloadAction<boolean> | PayloadAction<void>;
 export interface TeamState {
-  team: Array<InBattleCharacter>;
+  team: Array<IInBattleCharacter>;
   isLoading: boolean;
   error: { error: boolean; errorCode: string };
 }
@@ -58,7 +58,7 @@ function handleAddOnTeam(
 
 function handelRemoveFromTeam(
   state: TeamState,
-  action: PayloadAction<Array<InBattleCharacter>>
+  action: PayloadAction<Array<IInBattleCharacter>>
 ): TeamState {
   return {
     ...state,

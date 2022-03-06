@@ -52,7 +52,7 @@ type Cost = {
   quantity: number;
 };
 
-export interface InBattleCharacter extends ICharacter {
+export interface IInBattleCharacter extends ICharacter {
   health: number;
   condition: Array<string>;
 }

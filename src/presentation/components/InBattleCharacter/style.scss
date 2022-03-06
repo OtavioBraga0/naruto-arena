@@ -1,0 +1,15 @@
+.in-battle-character {
+  &--dead .in-battle-character__avatar {
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      background-color: rgba($color: red, $alpha: 0.4);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+}
