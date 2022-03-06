@@ -7,8 +7,8 @@ import { initializeDomainLayer } from "./domain/DomainLayer";
 import { initializePresentationLayer } from "./presentation/PresentationLayer";
 
 const { store, persistor } = initializeDomainLayer();
-const App = initializePresentationLayer(store, persistor);
 initializeDataLayer();
+const App = initializePresentationLayer(store, persistor);
 
 ReactDOM.render(
   <Provider store={store}>

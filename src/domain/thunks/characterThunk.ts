@@ -1,11 +1,9 @@
 import { Dispatch } from "redux";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { EngageState } from "../DomainLayer";
-import {
-  getPaginatedCharacter,
-  getDetailedCharacter,
-} from "../../data/services/character";
+import { getDetailedCharacter } from "../../data/services/character";
 import { ICharacter } from "../entities/Character";
+import { getAllCharacters } from "../../data/firebase/character";
 
 export interface ThunkApi {
   dispatch: Dispatch;
@@ -18,7 +16,7 @@ export const getPaginatedCharacterThunk = createAsyncThunk<
   ThunkApi
 >("thunk/character/getPaginatedCharacterThunk", async (_, thunkAPI) => {
   try {
-    const response = await getPaginatedCharacter();
+    const response = await getAllCharacters();
 
     return response;
   } catch (error: any) {
