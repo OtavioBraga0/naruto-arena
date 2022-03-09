@@ -1,19 +1,33 @@
 import React from "react";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
-import { Home } from "./view/Home";
+import { Selection } from "./view/Selection";
+import { Login } from "./view/Login";
 import { QuickMatch } from "./view/QuickMatch";
+import { PrivateRoute } from "./components/PrivateRoute";
+import { PublicRoute } from "./components/PublicRoute";
 
 export enum ROUTES {
-  HOME = "/",
+  SELECTION = "/selection",
   QUICK_MATCH = "/quick-match",
+  LOGIN = "/",
 }
 
 export const Router: React.FC = () => {
   return (
     <BrowserRouter basename="/">
       <Routes>
-        <Route path={ROUTES.HOME} element={<Home />} />
-        <Route path={ROUTES.QUICK_MATCH} element={<QuickMatch />} />
+        <Route
+          path={ROUTES.SELECTION}
+          element={<PrivateRoute element={() => <Selection />} />}
+        />
+        <Route
+          path={ROUTES.QUICK_MATCH}
+          element={<PrivateRoute element={() => <QuickMatch />} />}
+        />
+        <Route
+          path={ROUTES.LOGIN}
+          element={<PublicRoute element={() => <Login />} />}
+        />
       </Routes>
     </BrowserRouter>
   );

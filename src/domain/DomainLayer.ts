@@ -28,11 +28,13 @@ import {
   battleReducer,
   BattleState,
 } from "./ducks/battleReducer";
+import { authReducer, AuthState } from "./ducks/authReducer";
 
 export interface EngageState {
   readonly character: CharacterState;
   readonly team: TeamState;
   readonly battle: BattleState;
+  readonly auth: AuthState;
 }
 
 export type EngageActions = CharacterActionType &
@@ -44,12 +46,13 @@ const rootReducer: ReducersMapObject<EngageState, EngageActions> = {
   character: characterReducer,
   team: teamReducer,
   battle: battleReducer,
+  auth: authReducer,
 };
 
 const persistConfig = {
   key: "root",
   storage,
-  whitelist: ["team"],
+  whitelist: ["team", "auth"],
 };
 
 const persistedReducer = persistReducer(

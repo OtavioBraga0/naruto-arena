@@ -11,7 +11,7 @@ import { teamSelector } from "../../../domain/ducks/teamReducer";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../Router";
 
-export const Home: React.FC = () => {
+export const Selection: React.FC = () => {
   const {
     actions: { handleGetPaginatedCharacters },
   } = useCharacter();

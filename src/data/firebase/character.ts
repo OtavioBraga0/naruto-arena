@@ -1,10 +1,10 @@
 import { collection, getDocs, orderBy, query } from "firebase/firestore/lite";
-import { firebaseApp } from ".";
+import { firestore } from ".";
 import { ICharacter } from "../../domain/entities/Character";
 
 export async function getAllCharacters(): Promise<Array<ICharacter>> {
   const charactersCollection = query(
-    collection(firebaseApp, "characters"),
+    collection(firestore, "characters"),
     orderBy("id", "asc")
   );
   const charactersSnapshot = await getDocs(charactersCollection);
